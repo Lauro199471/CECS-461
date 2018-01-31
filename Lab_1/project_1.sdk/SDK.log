@@ -1,0 +1,21 @@
+22:46:22 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+22:46:22 INFO  : Processing command line option -hwspec C:/Xilinx/MyProjects/project_1/project_1.sdk/system_wrapper.hdf.
+22:46:23 INFO  : XSDB server has started successfully.
+22:56:27 INFO  : ps7_init is completed.
+22:56:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:01:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:02:27 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:10:39 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+23:10:41 INFO  : Processing command line option -hwspec C:/Xilinx/CECS-461/project_1/project_1.sdk/system_wrapper.hdf.
+23:10:41 INFO  : XSDB server has started successfully.
+23:11:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:11:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:11:42 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:17:30 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+23:17:31 INFO  : XSDB server has started successfully.
+23:17:33 INFO  : Processing command line option -hwspec C:/Xilinx/CECS-461/Lab_1/project_1.sdk/system_wrapper.hdf.
+23:19:15 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+23:19:16 INFO  : Processing command line option -hwspec C:/Xilinx/CECS-461/Lab_1/project_1.sdk/system_wrapper.hdf.
+23:19:16 INFO  : XSDB server has started successfully.
+23:20:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:21:06 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
