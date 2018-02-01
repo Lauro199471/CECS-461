@@ -1,0 +1,411 @@
+07:43:34 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+07:43:55 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab2.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+../src/lab2.c: In function 'main':
+../src/lab2.c:7:18: warning: unused variable 'dip_check' [-Wunused-variable]
+  int psb_check , dip_check;
+                  ^
+../src/lab2.c:7:6: warning: unused variable 'psb_check' [-Wunused-variable]
+  int psb_check , dip_check;
+      ^
+../src/lab2.c:6:14: warning: unused variable 'push' [-Wunused-variable]
+  XGpio dip , push;
+              ^
+../src/lab2.c:6:8: warning: unused variable 'dip' [-Wunused-variable]
+  XGpio dip , push;
+        ^
+../src/lab2.c:8:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19380	   1152	  22564	  43096	   a858	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+07:44:11 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab2.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+../src/lab2.c: In function 'main':
+../src/lab2.c:9:2: error: too few arguments to function 'xil_printf'
+  xil_printf();
+  ^
+In file included from ../../standalone_bsp_0/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../standalone_bsp_0/ps7_cortexa9_0/include/xgpio_l.h:84,
+                 from ../src/xgpio.h:118,
+                 from ../src/lab2.c:2:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xil_printf.h:35:6: note: declared here
+ void xil_printf( const char8 *ctrl1, ...);
+      ^
+../src/lab2.c:7:18: warning: unused variable 'dip_check' [-Wunused-variable]
+  int psb_check , dip_check;
+                  ^
+../src/lab2.c:7:6: warning: unused variable 'psb_check' [-Wunused-variable]
+  int psb_check , dip_check;
+      ^
+../src/lab2.c:6:14: warning: unused variable 'push' [-Wunused-variable]
+  XGpio dip , push;
+              ^
+../src/lab2.c:6:8: warning: unused variable 'dip' [-Wunused-variable]
+  XGpio dip , push;
+        ^
+../src/lab2.c:10:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/lab2.o] Error 1
+07:44:33 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab2.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+../src/lab2.c: In function 'main':
+../src/lab2.c:7:18: warning: unused variable 'dip_check' [-Wunused-variable]
+  int psb_check , dip_check;
+                  ^
+../src/lab2.c:7:6: warning: unused variable 'psb_check' [-Wunused-variable]
+  int psb_check , dip_check;
+      ^
+../src/lab2.c:6:14: warning: unused variable 'push' [-Wunused-variable]
+  XGpio dip , push;
+              ^
+../src/lab2.c:6:8: warning: unused variable 'dip' [-Wunused-variable]
+  XGpio dip , push;
+        ^
+../src/lab2.c:10:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22376	   1152	  22564	  46092	   b40c	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+07:44:52 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab2.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+../src/lab2.c: In function 'main':
+../src/lab2.c:7:18: warning: unused variable 'dip_check' [-Wunused-variable]
+  int psb_check , dip_check;
+                  ^
+../src/lab2.c:7:6: warning: unused variable 'psb_check' [-Wunused-variable]
+  int psb_check , dip_check;
+      ^
+../src/lab2.c:6:14: warning: unused variable 'push' [-Wunused-variable]
+  XGpio dip , push;
+              ^
+../src/lab2.c:6:8: warning: unused variable 'dip' [-Wunused-variable]
+  XGpio dip , push;
+        ^
+../src/lab2.c:11:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22392	   1152	  22564	  46108	   b41c	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+07:45:12 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab2.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+../src/lab2.c: In function 'main':
+../src/lab2.c:12:2: error: too few arguments to function 'XGpio_Initialize'
+  XGpio_Initialize();
+  ^
+In file included from ../src/lab2.c:2:0:
+../src/xgpio.h:154:5: note: declared here
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+     ^
+../src/lab2.c:7:18: warning: unused variable 'dip_check' [-Wunused-variable]
+  int psb_check , dip_check;
+                  ^
+../src/lab2.c:7:6: warning: unused variable 'psb_check' [-Wunused-variable]
+  int psb_check , dip_check;
+      ^
+../src/lab2.c:6:14: warning: unused variable 'push' [-Wunused-variable]
+  XGpio dip , push;
+              ^
+../src/lab2.c:6:8: warning: unused variable 'dip' [-Wunused-variable]
+  XGpio dip , push;
+        ^
+../src/lab2.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/lab2.o] Error 1
+07:45:35 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab2.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+../src/lab2.c: In function 'main':
+../src/lab2.c:7:18: warning: unused variable 'dip_check' [-Wunused-variable]
+  int psb_check , dip_check;
+                  ^
+../src/lab2.c:7:6: warning: unused variable 'psb_check' [-Wunused-variable]
+  int psb_check , dip_check;
+      ^
+../src/lab2.c:6:14: warning: unused variable 'push' [-Wunused-variable]
+  XGpio dip , push;
+              ^
+../src/lab2.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23568	   1184	  22580	  47332	   b8e4	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+07:46:30 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab2.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+../src/lab2.c: In function 'main':
+../src/lab2.c:7:18: warning: unused variable 'dip_check' [-Wunused-variable]
+  int psb_check , dip_check;
+                  ^
+../src/lab2.c:7:6: warning: unused variable 'psb_check' [-Wunused-variable]
+  int psb_check , dip_check;
+      ^
+../src/lab2.c:6:14: warning: unused variable 'push' [-Wunused-variable]
+  XGpio dip , push;
+              ^
+../src/lab2.c:14:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23632	   1184	  22580	  47396	   b924	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+07:46:42 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab2.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+../src/lab2.c: In function 'main':
+../src/lab2.c:7:18: warning: unused variable 'dip_check' [-Wunused-variable]
+  int psb_check , dip_check;
+                  ^
+../src/lab2.c:7:6: warning: unused variable 'psb_check' [-Wunused-variable]
+  int psb_check , dip_check;
+      ^
+../src/lab2.c:6:14: warning: unused variable 'push' [-Wunused-variable]
+  XGpio dip , push;
+              ^
+../src/lab2.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23632	   1184	  22580	  47396	   b924	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+07:46:55 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab2.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+../src/lab2.c: In function 'main':
+../src/lab2.c:7:18: warning: unused variable 'dip_check' [-Wunused-variable]
+  int psb_check , dip_check;
+                  ^
+../src/lab2.c:7:6: warning: unused variable 'psb_check' [-Wunused-variable]
+  int psb_check , dip_check;
+      ^
+../src/lab2.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23632	   1184	  22580	  47396	   b924	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+07:47:01 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab2.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+../src/lab2.c: In function 'main':
+../src/lab2.c:7:18: warning: unused variable 'dip_check' [-Wunused-variable]
+  int psb_check , dip_check;
+                  ^
+../src/lab2.c:7:6: warning: unused variable 'psb_check' [-Wunused-variable]
+  int psb_check , dip_check;
+      ^
+../src/lab2.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23632	   1184	  22580	  47396	   b924	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+07:47:42 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab2.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+../src/lab2.c: In function 'main':
+../src/lab2.c:20:3: warning: implicit declaration of function 'XGPIO_DiscreteRead' [-Wimplicit-function-declaration]
+   psb_check = XGPIO_DiscreteRead(&push,1);
+   ^
+../src/lab2.c:7:18: warning: unused variable 'dip_check' [-Wunused-variable]
+  int psb_check , dip_check;
+                  ^
+../src/lab2.c:7:6: warning: variable 'psb_check' set but not used [-Wunused-but-set-variable]
+  int psb_check , dip_check;
+      ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/lab2.o: In function `main':
+C:\Xilinx\CECS-461\Lab_2\project_2\project_2.sdk\TestApp\Debug/../src/lab2.c:20: undefined reference to `XGPIO_DiscreteRead'
+collect2.exe: error: ld returned 1 exit status
+make: *** [TestApp.elf] Error 1
+07:47:57 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab2.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+../src/lab2.c: In function 'main':
+../src/lab2.c:7:18: warning: unused variable 'dip_check' [-Wunused-variable]
+  int psb_check , dip_check;
+                  ^
+../src/lab2.c:7:6: warning: variable 'psb_check' set but not used [-Wunused-but-set-variable]
+  int psb_check , dip_check;
+      ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23632	   1184	  22580	  47396	   b924	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+07:48:34 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab2.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+../src/lab2.c: In function 'main':
+../src/lab2.c:7:18: warning: unused variable 'dip_check' [-Wunused-variable]
+  int psb_check , dip_check;
+                  ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23724	   1184	  22580	  47488	   b980	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+07:49:18 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab2.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+../src/lab2.c: In function 'main':
+../src/lab2.c:25:3: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+   sleep(1);
+   ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23876	   1184	  22580	  47640	   ba18	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+07:52:11 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.

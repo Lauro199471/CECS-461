@@ -1,0 +1,22 @@
+07:06:21 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+07:06:22 INFO  : Processing command line option -hwspec C:/Xilinx/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper.hdf.
+07:06:23 INFO  : XSDB server has started successfully.
+07:31:37 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+07:31:38 INFO  : XSDB server has started successfully.
+07:31:40 INFO  : Processing command line option -hwspec C:/Xilinx/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper.hdf.
+07:31:42 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+07:31:42 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1517499040238,  Project:1517497560513
+07:31:42 INFO  : The hardware specification for project 'system_wrapper_hw_platform_0' is different from C:/Xilinx/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper.hdf.
+07:31:42 INFO  : Copied contents of C:/Xilinx/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+07:31:45 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+07:31:45 INFO  : Clearing existing target manager status.
+07:31:47 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+07:31:47 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+07:32:17 INFO  : BSP Project P/standalone_bsp_0 has been successfully migrated.
+07:51:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:51:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+07:51:55 INFO  : FPGA configured successfully with bitstream "C:/Xilinx/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+07:52:15 INFO  : ps7_init is completed.
+07:52:16 INFO  : ps7_post_config is completed.
+07:52:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:53:16 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
