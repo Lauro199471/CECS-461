@@ -2,14 +2,10 @@
 # Vivado v2015.2 (64-bit)
 # SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
 # IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
-# Start of session at: Tue Jan 30 23:17:09 2018
-# Process ID: 8764
+# Start of session at: Fri Feb 02 01:36:37 2018
+# Process ID: 10488
 # Log file: C:/Xilinx/CECS-461/Lab_1/vivado.log
 # Journal file: C:/Xilinx/CECS-461/Lab_1\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project C:/Xilinx/CECS-461/Lab_1/project_1.xpr
-launch_sdk -workspace C:/Xilinx/CECS-461/Lab_1/project_1.sdk -hwspec C:/Xilinx/CECS-461/Lab_1/project_1.sdk/system_wrapper.hdf
-open_bd_design {C:/Xilinx/CECS-461/Lab_1/project_1.srcs/sources_1/bd/system/system.bd}
-write_hwdef -force  -file C:/Xilinx/CECS-461/Lab_1/project_1.sdk/system_wrapper.hdf
-launch_sdk -workspace C:/Xilinx/CECS-461/Lab_1/project_1.sdk -hwspec C:/Xilinx/CECS-461/Lab_1/project_1.sdk/system_wrapper.hdf
