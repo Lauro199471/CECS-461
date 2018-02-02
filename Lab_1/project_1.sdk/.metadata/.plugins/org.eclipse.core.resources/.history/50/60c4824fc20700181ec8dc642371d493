@@ -88,7 +88,7 @@ int main()
 
     init_platform();
 
-    print("--Starting Memory Test Application--\n\r\tLauro Cabral\n\r\n\r");
+    print("--Starting Memory Test Application--\n\r\tLauro Cabral");
     print("NOTE: This application runs with D-Cache disabled.");
     print("As a result, cacheline requests will not be generated\n\r");
 
