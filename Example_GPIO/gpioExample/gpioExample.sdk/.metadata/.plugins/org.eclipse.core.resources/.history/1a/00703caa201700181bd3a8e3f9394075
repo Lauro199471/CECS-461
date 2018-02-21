@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include "platform.h"
+#include "xparameters.h"
+
+void print(char *str);
+
+int main()
+{
+    init_platform();
+
+    print("Hello World, Lauro LED and Button test\n\r");
+
+    cleanup_platform();
+    return 0;
+}

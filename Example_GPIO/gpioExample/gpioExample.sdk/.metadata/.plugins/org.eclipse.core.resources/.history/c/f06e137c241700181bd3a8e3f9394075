@@ -1,0 +1,47 @@
+/*
+ * The exact DeviceId information you can find in the xparameters.h file.
+ * The xparameters.h file contains base addresses of peripherals and defines parameters used to access peripherals in drivers and user programs.
+ *
+ * XGpio is a driver needed for AXI GPIO IP
+ * XGpiops is a driver needed for PS GPIO
+ *
+ * xstatus: contains Xilinx software status codes.
+ */
+
+#include <stdio.h>
+#include "platform.h"
+#include "xstatus.h"
+
+// MUST INCLUDE THESE FILES
+#include "xparameters.h"
+#include "xgpio.h"
+
+int main()
+{
+	XGpio pushButton , LED; // 2 drivers in this application LED and pushButton
+	XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+
+	printf("Hello World, Lauro LED and Button test\n\r");
+	// Initilaze the GPIO driver so that it's ready to use
+	pushButton_check = XGpio_Initialize(&pushButton,XPAR_LAUROPUSHBUTTON_DEVICE_ID);
+	LED_check = XGpio_Initialize(&LED,XPAR_LAUROLED_DEVICE_ID);
+
+	// Check if they actually initialized
+	// 1) Push Button Check
+	if(pushButton_check == XST_SUCCESS)
+		printf("Push Button: OK\n\r");
+	else
+	{
+		printf("Push Button: FAIL\n\r");
+		return XST_FAILURE;
+	}
+	// 2) LED Check
+	if(LED_check == XST_SUCCESS)
+		printf("LED: OK\n\r");
+	else
+	{
+		printf("LED: FAIL\n\r");
+		return XST_FAILURE;
+	}
+    return 0;
+}
