@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<webTalkData  fileName='usage_statistics_webtalk.xml'  majorVersion='1' minorVersion='0' timeStamp='Thu Feb 01 07:30:38 2018'>
+<webTalkData  fileName='usage_statistics_webtalk.xml'  majorVersion='1' minorVersion='0' timeStamp='Tue Feb 20 21:43:58 2018'>
 <section name="__ROOT__" level="0" order="1" description="">
  <section name="software_version_and_target_device" level="1" order="1" description="">
   <keyValuePair key="beta" value="FALSE" description="" />
   <keyValuePair key="build_version" value="1266856" description="" />
-  <keyValuePair key="date_generated" value="Thu Feb 01 07:30:38 2018" description="" />
+  <keyValuePair key="date_generated" value="Tue Feb 20 21:43:58 2018" description="" />
   <keyValuePair key="os_platform" value="WIN64" description="" />
   <keyValuePair key="product_version" value="Vivado v2015.2 (64-bit)" description="" />
   <keyValuePair key="project_id" value="dc74a6b748ed40a390fd19f590cb655a" description="" />
@@ -559,7 +559,7 @@
    <keyValuePair key="movable_instances" value="1823" description="" />
    <keyValuePair key="nets" value="3698" description="" />
    <keyValuePair key="pins" value="12234" description="" />
-   <keyValuePair key="placer_runtime" value="3.175000" description="" />
+   <keyValuePair key="placer_runtime" value="3.582000" description="" />
    <keyValuePair key="placer_timing_driven" value="1" description="" />
    <keyValuePair key="pll" value="0" description="" />
    <keyValuePair key="threads" value="2" description="" />
@@ -629,7 +629,7 @@
    <keyValuePair key="output_load" value="5.000000" description="" />
    <keyValuePair key="output_toggle" value="12.500000" description="" />
    <keyValuePair key="package" value="clg400" description="" />
-   <keyValuePair key="pct_clock_constrained" value="0.000000" description="" />
+   <keyValuePair key="pct_clock_constrained" value="1.000000" description="" />
    <keyValuePair key="pct_inputs_defined" value="0" description="" />
    <keyValuePair key="platform" value="nt64" description="" />
    <keyValuePair key="process" value="typical" description="" />
@@ -984,7 +984,7 @@
    <keyValuePair key="nets" value="3698" description="" />
    <keyValuePair key="pins" value="12234" description="" />
    <keyValuePair key="pll" value="0" description="" />
-   <keyValuePair key="router_runtime" value="16.471000" description="" />
+   <keyValuePair key="router_runtime" value="17.873000" description="" />
    <keyValuePair key="router_timing_driven" value="1" description="" />
    <keyValuePair key="threads" value="2" description="" />
    <keyValuePair key="timing_constraints_exist" value="1" description="" />
@@ -1017,10 +1017,10 @@
    <keyValuePair key="-verilog_define" value="default::[not_specified]" description="" />
   </section>
   <section name="usage" level="2" order="2" description="">
-   <keyValuePair key="elapsed" value="00:01:03s" description="" />
+   <keyValuePair key="elapsed" value="00:01:07s" description="" />
    <keyValuePair key="hls_ip" value="0" description="" />
-   <keyValuePair key="memory_gain" value="568.789MB" description="" />
-   <keyValuePair key="memory_peak" value="839.512MB" description="" />
+   <keyValuePair key="memory_gain" value="569.188MB" description="" />
+   <keyValuePair key="memory_peak" value="839.715MB" description="" />
   </section>
  </section>
  <section name="unisim_transformation" level="1" order="9" description="">

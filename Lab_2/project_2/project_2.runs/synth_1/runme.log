@@ -16,17 +16,17 @@ Command: synth_design -top system_wrapper -part xc7z010clg400-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
-INFO: [Common 17-1223] The version limit for your license is '2017.12' and will expire in -32 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Common 17-1223] The version limit for your license is '2017.12' and will expire in -51 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 317.867 ; gain = 141.035
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 318.234 ; gain = 141.000
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'system_wrapper' [C:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system_wrapper.vhd:42]
-INFO: [Synth 8-3491] module 'system' declared at 'C:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:1089' bound to instance 'system_i' of component 'system' [C:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system_wrapper.vhd:71]
-INFO: [Synth 8-638] synthesizing module 'system' [C:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:1121]
-INFO: [Synth 8-113] binding component instance 'GND' to cell 'GND' [C:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:1357]
-INFO: [Synth 8-113] binding component instance 'VCC' to cell 'VCC' [C:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:1361]
-INFO: [Synth 8-3491] module 'system_axi_gpio_0_1' declared at 'c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/synth/system_axi_gpio_0_1.vhd:59' bound to instance 'buttons' of component 'system_axi_gpio_0_1' [C:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:1365]
-INFO: [Synth 8-638] synthesizing module 'system_axi_gpio_0_1' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/synth/system_axi_gpio_0_1.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'system_wrapper' [C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system_wrapper.vhd:42]
+INFO: [Synth 8-3491] module 'system' declared at 'C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:1089' bound to instance 'system_i' of component 'system' [C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system_wrapper.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'system' [C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:1121]
+INFO: [Synth 8-113] binding component instance 'GND' to cell 'GND' [C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:1357]
+INFO: [Synth 8-113] binding component instance 'VCC' to cell 'VCC' [C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:1361]
+INFO: [Synth 8-3491] module 'system_axi_gpio_0_1' declared at 'c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/synth/system_axi_gpio_0_1.vhd:59' bound to instance 'buttons' of component 'system_axi_gpio_0_1' [C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:1365]
+INFO: [Synth 8-638] synthesizing module 'system_axi_gpio_0_1' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/synth/system_axi_gpio_0_1.vhd:84]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -42,8 +42,8 @@ INFO: [Synth 8-638] synthesizing module 'system_axi_gpio_0_1' [c:/Xilinx/CECS-46
 	Parameter C_IS_DUAL bound to: 0 - type: integer 
 	Parameter C_DOUT_DEFAULT_2 bound to: 32'b00000000000000000000000000000000 
 	Parameter C_TRI_DEFAULT_2 bound to: 32'b11111111111111111111111111111111 
-INFO: [Synth 8-3491] module 'axi_gpio' declared at 'c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_gpio_v2_0/e416c384/hdl/src/vhdl/axi_gpio.vhd:189' bound to instance 'U0' of component 'axi_gpio' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/synth/system_axi_gpio_0_1.vhd:163]
-INFO: [Synth 8-638] synthesizing module 'axi_gpio' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_gpio_v2_0/e416c384/hdl/src/vhdl/axi_gpio.vhd:282]
+INFO: [Synth 8-3491] module 'axi_gpio' declared at 'c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_gpio_v2_0/e416c384/hdl/src/vhdl/axi_gpio.vhd:189' bound to instance 'U0' of component 'axi_gpio' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/synth/system_axi_gpio_0_1.vhd:163]
+INFO: [Synth 8-638] synthesizing module 'axi_gpio' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_gpio_v2_0/e416c384/hdl/src/vhdl/axi_gpio.vhd:282]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -59,9 +59,9 @@ INFO: [Synth 8-638] synthesizing module 'axi_gpio' [c:/Xilinx/CECS-461/Lab_2/pro
 	Parameter C_IS_DUAL bound to: 0 - type: integer 
 	Parameter C_DOUT_DEFAULT_2 bound to: 0 - type: integer 
 	Parameter C_TRI_DEFAULT_2 bound to: -1 - type: integer 
-INFO: [Synth 8-5534] Detected attribute (* max_fanout = "10000" *) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_gpio_v2_0/e416c384/hdl/src/vhdl/axi_gpio.vhd:219]
-INFO: [Synth 8-5534] Detected attribute (* max_fanout = "10000" *) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_gpio_v2_0/e416c384/hdl/src/vhdl/axi_gpio.vhd:220]
-INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/axi_lite_ipif.vhd:249]
+INFO: [Synth 8-5534] Detected attribute (* max_fanout = "10000" *) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_gpio_v2_0/e416c384/hdl/src/vhdl/axi_gpio.vhd:219]
+INFO: [Synth 8-5534] Detected attribute (* max_fanout = "10000" *) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_gpio_v2_0/e416c384/hdl/src/vhdl/axi_gpio.vhd:220]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/axi_lite_ipif.vhd:249]
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
 	Parameter C_S_AXI_MIN_SIZE bound to: 32'b00000000000000000000000111111111 
@@ -70,7 +70,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [c:/Xilinx/CECS-461/Lab_
 	Parameter C_ARD_ADDR_RANGE_ARRAY bound to: 128'b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111 
 	Parameter C_ARD_NUM_CE_ARRAY bound to: 32'b00000000000000000000000000000100 
 	Parameter C_FAMILY bound to: zynq - type: string 
-INFO: [Synth 8-638] synthesizing module 'slave_attachment' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/slave_attachment.vhd:239]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/slave_attachment.vhd:239]
 	Parameter C_ARD_ADDR_RANGE_ARRAY bound to: 128'b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111 
 	Parameter C_ARD_NUM_CE_ARRAY bound to: 32'b00000000000000000000000000000100 
 	Parameter C_IPIF_ABUS_WIDTH bound to: 9 - type: integer 
@@ -79,42 +79,42 @@ INFO: [Synth 8-638] synthesizing module 'slave_attachment' [c:/Xilinx/CECS-461/L
 	Parameter C_USE_WSTRB bound to: 0 - type: integer 
 	Parameter C_DPHASE_TIMEOUT bound to: 8 - type: integer 
 	Parameter C_FAMILY bound to: zynq - type: string 
-INFO: [Synth 8-638] synthesizing module 'address_decoder' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/address_decoder.vhd:190]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/address_decoder.vhd:190]
 	Parameter C_BUS_AWIDTH bound to: 9 - type: integer 
 	Parameter C_S_AXI_MIN_SIZE bound to: 511 - type: integer 
 	Parameter C_ARD_ADDR_RANGE_ARRAY bound to: 128'b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111 
 	Parameter C_ARD_NUM_CE_ARRAY bound to: 32'b00000000000000000000000000000100 
 	Parameter C_FAMILY bound to: nofamily - type: string 
-INFO: [Synth 8-638] synthesizing module 'pselect_f' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/pselect_f.vhd:161]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/pselect_f.vhd:161]
 	Parameter C_AB bound to: 2 - type: integer 
 	Parameter C_AW bound to: 2 - type: integer 
 	Parameter C_BAR bound to: 2'b00 
 	Parameter C_FAMILY bound to: nofamily - type: string 
-INFO: [Synth 8-256] done synthesizing module 'pselect_f' (1#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/pselect_f.vhd:161]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/pselect_f.vhd:161]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (1#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/pselect_f.vhd:161]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/pselect_f.vhd:161]
 	Parameter C_AB bound to: 2 - type: integer 
 	Parameter C_AW bound to: 2 - type: integer 
 	Parameter C_BAR bound to: 2'b01 
 	Parameter C_FAMILY bound to: nofamily - type: string 
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (1#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/pselect_f.vhd:161]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/pselect_f.vhd:161]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (1#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/pselect_f.vhd:161]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/pselect_f.vhd:161]
 	Parameter C_AB bound to: 2 - type: integer 
 	Parameter C_AW bound to: 2 - type: integer 
 	Parameter C_BAR bound to: 2'b10 
 	Parameter C_FAMILY bound to: nofamily - type: string 
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (1#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/pselect_f.vhd:161]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/pselect_f.vhd:161]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (1#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/pselect_f.vhd:161]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/pselect_f.vhd:161]
 	Parameter C_AB bound to: 2 - type: integer 
 	Parameter C_AW bound to: 2 - type: integer 
 	Parameter C_BAR bound to: 2'b11 
 	Parameter C_FAMILY bound to: nofamily - type: string 
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (1#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/pselect_f.vhd:161]
-INFO: [Synth 8-256] done synthesizing module 'address_decoder' (2#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/address_decoder.vhd:190]
-INFO: [Synth 8-226] default block is never used [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/slave_attachment.vhd:448]
-INFO: [Synth 8-4512] found unpartitioned construct node [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/slave_attachment.vhd:417]
-INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (3#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/slave_attachment.vhd:239]
-INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (4#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/axi_lite_ipif.vhd:249]
-INFO: [Synth 8-638] synthesizing module 'GPIO_Core' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_gpio_v2_0/e416c384/hdl/src/vhdl/gpio_core.vhd:173]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (1#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/pselect_f.vhd:161]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (2#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/address_decoder.vhd:190]
+INFO: [Synth 8-226] default block is never used [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/slave_attachment.vhd:448]
+INFO: [Synth 8-4512] found unpartitioned construct node [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/slave_attachment.vhd:417]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (3#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/slave_attachment.vhd:239]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (4#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/axi_lite_ipif.vhd:249]
+INFO: [Synth 8-638] synthesizing module 'GPIO_Core' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_gpio_v2_0/e416c384/hdl/src/vhdl/gpio_core.vhd:173]
 	Parameter C_DW bound to: 32 - type: integer 
 	Parameter C_AW bound to: 9 - type: integer 
 	Parameter C_GPIO_WIDTH bound to: 4 - type: integer 
@@ -127,8 +127,8 @@ INFO: [Synth 8-638] synthesizing module 'GPIO_Core' [c:/Xilinx/CECS-461/Lab_2/pr
 	Parameter C_DOUT_DEFAULT_2 bound to: 0 - type: integer 
 	Parameter C_TRI_DEFAULT_2 bound to: -1 - type: integer 
 	Parameter C_FAMILY bound to: zynq - type: string 
-INFO: [Synth 8-226] default block is never used [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_gpio_v2_0/e416c384/hdl/src/vhdl/gpio_core.vhd:346]
-INFO: [Synth 8-638] synthesizing module 'cdc_sync' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:106]
+INFO: [Synth 8-226] default block is never used [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_gpio_v2_0/e416c384/hdl/src/vhdl/gpio_core.vhd:346]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:106]
 	Parameter C_CDC_TYPE bound to: 1 - type: integer 
 	Parameter C_RESET_STATE bound to: 0 - type: integer 
 	Parameter C_SINGLE_BIT bound to: 0 - type: integer 
@@ -136,60 +136,60 @@ INFO: [Synth 8-638] synthesizing module 'cdc_sync' [c:/Xilinx/CECS-461/Lab_2/pro
 	Parameter C_VECTOR_WIDTH bound to: 4 - type: integer 
 	Parameter C_MTBF_STAGES bound to: 4 - type: integer 
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:736]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:736]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:736]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:736]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:736]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:736]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:736]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:736]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:772]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:772]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:772]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:772]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:772]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:772]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:772]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:772]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:788]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:788]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:788]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:788]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:788]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:788]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:788]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:788]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:804]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:804]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:804]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:804]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:804]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:804]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:804]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:804]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:821]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:821]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:821]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:821]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:821]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:821]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:821]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:821]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:837]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:837]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:837]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:837]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:837]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:837]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:837]
-INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (5#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:106]
-INFO: [Synth 8-256] done synthesizing module 'GPIO_Core' (6#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_gpio_v2_0/e416c384/hdl/src/vhdl/gpio_core.vhd:173]
-INFO: [Synth 8-256] done synthesizing module 'axi_gpio' (7#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_gpio_v2_0/e416c384/hdl/src/vhdl/axi_gpio.vhd:282]
-INFO: [Synth 8-256] done synthesizing module 'system_axi_gpio_0_1' (8#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/synth/system_axi_gpio_0_1.vhd:84]
-INFO: [Synth 8-3491] module 'system_processing_system7_0_0' declared at 'c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.v:57' bound to instance 'processing_system7_0' of component 'system_processing_system7_0_0' [C:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:1388]
-INFO: [Synth 8-638] synthesizing module 'system_processing_system7_0_0' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.v:57]
-INFO: [Synth 8-638] synthesizing module 'processing_system7_v5_5_processing_system7' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:156]
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:837]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (5#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_Core' (6#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_gpio_v2_0/e416c384/hdl/src/vhdl/gpio_core.vhd:173]
+INFO: [Synth 8-256] done synthesizing module 'axi_gpio' (7#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_gpio_v2_0/e416c384/hdl/src/vhdl/axi_gpio.vhd:282]
+INFO: [Synth 8-256] done synthesizing module 'system_axi_gpio_0_1' (8#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/synth/system_axi_gpio_0_1.vhd:84]
+INFO: [Synth 8-3491] module 'system_processing_system7_0_0' declared at 'c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.v:57' bound to instance 'processing_system7_0' of component 'system_processing_system7_0_0' [C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:1388]
+INFO: [Synth 8-638] synthesizing module 'system_processing_system7_0_0' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'processing_system7_v5_5_processing_system7' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:156]
 	Parameter C_USE_DEFAULT_ACP_USER_VAL bound to: 0 - type: integer 
 	Parameter C_S_AXI_ACP_ARUSER_VAL bound to: 31 - type: integer 
 	Parameter C_S_AXI_ACP_AWUSER_VAL bound to: 31 - type: integer 
@@ -244,26 +244,26 @@ INFO: [Synth 8-638] synthesizing module 'processing_system7_v5_5_processing_syst
 	Parameter C_USE_S_AXI_GP0 bound to: 0 - type: integer 
 	Parameter C_USE_S_AXI_GP1 bound to: 0 - type: integer 
 	Parameter C_USE_S_AXI_ACP bound to: 0 - type: integer 
-INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1350]
-INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1351]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1350]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1351]
 INFO: [Synth 8-638] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:607]
 INFO: [Synth 8-256] done synthesizing module 'BUFG' (9#1) [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:607]
 INFO: [Synth 8-638] synthesizing module 'BIBUF' [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:268]
 INFO: [Synth 8-256] done synthesizing module 'BIBUF' (10#1) [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:268]
 INFO: [Synth 8-638] synthesizing module 'PS7' [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:26467]
 INFO: [Synth 8-256] done synthesizing module 'PS7' (11#1) [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:26467]
-INFO: [Synth 8-256] done synthesizing module 'processing_system7_v5_5_processing_system7' (12#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:156]
-WARNING: [Synth 8-350] instance 'inst' of module 'processing_system7_v5_5_processing_system7' requires 685 connections, but only 672 given [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.v:301]
-INFO: [Synth 8-256] done synthesizing module 'system_processing_system7_0_0' (13#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.v:57]
-INFO: [Synth 8-638] synthesizing module 'system_processing_system7_0_axi_periph_0' [C:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:617]
-INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_WKXF3L' [C:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:57]
-INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_WKXF3L' (14#1) [C:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:57]
-INFO: [Synth 8-638] synthesizing module 'm01_couplers_imp_1ORP4PS' [C:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:158]
-INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_1ORP4PS' (15#1) [C:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:158]
-INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_IK3G2O' [C:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:282]
-INFO: [Synth 8-3491] module 'system_auto_pc_0' declared at 'c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_auto_pc_0/synth/system_auto_pc_0.v:57' bound to instance 'auto_pc' of component 'system_auto_pc_0' [C:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:465]
-INFO: [Synth 8-638] synthesizing module 'system_auto_pc_0' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_auto_pc_0/synth/system_auto_pc_0.v:57]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_axi_protocol_converter' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v:62]
+INFO: [Synth 8-256] done synthesizing module 'processing_system7_v5_5_processing_system7' (12#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:156]
+WARNING: [Synth 8-350] instance 'inst' of module 'processing_system7_v5_5_processing_system7' requires 685 connections, but only 672 given [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.v:301]
+INFO: [Synth 8-256] done synthesizing module 'system_processing_system7_0_0' (13#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'system_processing_system7_0_axi_periph_0' [C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:617]
+INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_WKXF3L' [C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:57]
+INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_WKXF3L' (14#1) [C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'm01_couplers_imp_1ORP4PS' [C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:158]
+INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_1ORP4PS' (15#1) [C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:158]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_IK3G2O' [C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:282]
+INFO: [Synth 8-3491] module 'system_auto_pc_0' declared at 'c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_auto_pc_0/synth/system_auto_pc_0.v:57' bound to instance 'auto_pc' of component 'system_auto_pc_0' [C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:465]
+INFO: [Synth 8-638] synthesizing module 'system_auto_pc_0' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_auto_pc_0/synth/system_auto_pc_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_axi_protocol_converter' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v:62]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_M_AXI_PROTOCOL bound to: 2 - type: integer 
 	Parameter C_S_AXI_PROTOCOL bound to: 1 - type: integer 
@@ -289,14 +289,14 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_axi_protoco
 	Parameter P_SLVERR bound to: 2'b10 
 	Parameter P_PROTECTION bound to: 1 - type: integer 
 	Parameter P_CONVERSION bound to: 2 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s.v:39]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s.v:39]
 	Parameter C_S_AXI_PROTOCOL bound to: 1 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter C_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_AXI_SUPPORTS_WRITE bound to: 1 - type: integer 
 	Parameter C_AXI_SUPPORTS_READ bound to: 1 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axi_register_slice' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axi_register_slice' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v:64]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_AXI_PROTOCOL bound to: 1 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 12 - type: integer 
@@ -389,7 +389,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axi_register_sl
 	Parameter G_AXI_RUSER_INDEX bound to: 47 - type: integer 
 	Parameter G_AXI_RUSER_WIDTH bound to: 0 - type: integer 
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 47 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_axi2vector' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_infrastructure_v1_1/cf21a66f/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_axi2vector' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_infrastructure_v1_1/cf21a66f/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v:60]
 	Parameter C_AXI_PROTOCOL bound to: 1 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
@@ -481,28 +481,28 @@ INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_axi2vector' [c:
 	Parameter G_AXI_RUSER_INDEX bound to: 47 - type: integer 
 	Parameter G_AXI_RUSER_WIDTH bound to: 0 - type: integer 
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 47 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_axi2vector' (16#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_infrastructure_v1_1/cf21a66f/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v:60]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_axi2vector' (16#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_infrastructure_v1_1/cf21a66f/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 66 - type: integer 
 	Parameter C_REG_CONFIG bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice' (17#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized0' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice' (17#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized0' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 49 - type: integer 
 	Parameter C_REG_CONFIG bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized0' (17#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized1' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized0' (17#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized1' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 14 - type: integer 
 	Parameter C_REG_CONFIG bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized1' (17#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized2' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized1' (17#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized2' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 47 - type: integer 
 	Parameter C_REG_CONFIG bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized2' (17#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
-INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_vector2axi' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_infrastructure_v1_1/cf21a66f/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized2' (17#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_vector2axi' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_infrastructure_v1_1/cf21a66f/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v:60]
 	Parameter C_AXI_PROTOCOL bound to: 1 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
@@ -594,34 +594,34 @@ INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_vector2axi' [c:
 	Parameter G_AXI_RUSER_INDEX bound to: 47 - type: integer 
 	Parameter G_AXI_RUSER_WIDTH bound to: 0 - type: integer 
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 47 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_vector2axi' (18#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_infrastructure_v1_1/cf21a66f/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v:60]
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axi_register_slice' (19#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v:64]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_aw_channel' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v:5]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_vector2axi' (18#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_infrastructure_v1_1/cf21a66f/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axi_register_slice' (19#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_aw_channel' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v:5]
 	Parameter C_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_cmd_translator' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v:17]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_cmd_translator' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v:17]
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter P_AXBURST_FIXED bound to: 2'b00 
 	Parameter P_AXBURST_INCR bound to: 2'b01 
 	Parameter P_AXBURST_WRAP bound to: 2'b10 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_incr_cmd' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v:11]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_incr_cmd' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v:11]
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter L_AXI_ADDR_LOW_BIT bound to: 12 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_incr_cmd' (20#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v:11]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_wrap_cmd' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v:11]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_incr_cmd' (20#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v:11]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_wrap_cmd' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v:11]
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter L_AXI_ADDR_LOW_BIT bound to: 12 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_wrap_cmd' (21#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v:11]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_cmd_translator' (22#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v:17]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_wr_cmd_fsm' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v:10]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_wrap_cmd' (21#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v:11]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_cmd_translator' (22#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v:17]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_wr_cmd_fsm' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v:10]
 	Parameter SM_IDLE bound to: 2'b00 
 	Parameter SM_CMD_EN bound to: 2'b01 
 	Parameter SM_CMD_ACCEPTED bound to: 2'b10 
 	Parameter SM_DONE_WAIT bound to: 2'b11 
-INFO: [Synth 8-226] default block is never used [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v:64]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_wr_cmd_fsm' (23#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v:10]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_aw_channel' (24#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v:5]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_b_channel' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v:10]
+INFO: [Synth 8-226] default block is never used [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v:64]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_wr_cmd_fsm' (23#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v:10]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_aw_channel' (24#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v:5]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_b_channel' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v:10]
 	Parameter C_ID_WIDTH bound to: 12 - type: integer 
 	Parameter LP_RESP_OKAY bound to: 2'b00 
 	Parameter LP_RESP_EXOKAY bound to: 2'b01 
@@ -633,7 +633,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_b_chann
 	Parameter P_RWIDTH bound to: 2 - type: integer 
 	Parameter P_RDEPTH bound to: 4 - type: integer 
 	Parameter P_RAWIDTH bound to: 2 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
 	Parameter C_WIDTH bound to: 20 - type: integer 
 	Parameter C_AWIDTH bound to: 2 - type: integer 
 	Parameter C_DEPTH bound to: 4 - type: integer 
@@ -641,8 +641,8 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_
 	Parameter C_EMPTY_PRE bound to: 2'b00 
 	Parameter C_FULL bound to: 2'b10 
 	Parameter C_FULL_PRE bound to: 2'b01 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo' (25#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo' (25#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
 	Parameter C_WIDTH bound to: 2 - type: integer 
 	Parameter C_AWIDTH bound to: 2 - type: integer 
 	Parameter C_DEPTH bound to: 4 - type: integer 
@@ -650,20 +650,20 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_
 	Parameter C_EMPTY_PRE bound to: 2'b00 
 	Parameter C_FULL bound to: 2'b10 
 	Parameter C_FULL_PRE bound to: 2'b01 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0' (25#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_b_channel' (26#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v:10]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_ar_channel' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v:5]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0' (25#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_b_channel' (26#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v:10]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_ar_channel' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v:5]
 	Parameter C_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_rd_cmd_fsm' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v:10]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_rd_cmd_fsm' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v:10]
 	Parameter SM_IDLE bound to: 2'b00 
 	Parameter SM_CMD_EN bound to: 2'b01 
 	Parameter SM_CMD_ACCEPTED bound to: 2'b10 
 	Parameter SM_DONE bound to: 2'b11 
-INFO: [Synth 8-226] default block is never used [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v:72]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_rd_cmd_fsm' (27#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v:10]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_ar_channel' (28#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v:5]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_r_channel' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v:21]
+INFO: [Synth 8-226] default block is never used [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v:72]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_rd_cmd_fsm' (27#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v:10]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_ar_channel' (28#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v:5]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_r_channel' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v:21]
 	Parameter C_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter P_WIDTH bound to: 13 - type: integer 
@@ -672,7 +672,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_r_chann
 	Parameter P_D_WIDTH bound to: 34 - type: integer 
 	Parameter P_D_DEPTH bound to: 32 - type: integer 
 	Parameter P_D_AWIDTH bound to: 5 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
 	Parameter C_WIDTH bound to: 34 - type: integer 
 	Parameter C_AWIDTH bound to: 5 - type: integer 
 	Parameter C_DEPTH bound to: 32 - type: integer 
@@ -680,8 +680,8 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_
 	Parameter C_EMPTY_PRE bound to: 5'b00000 
 	Parameter C_FULL bound to: 5'b11110 
 	Parameter C_FULL_PRE bound to: 5'b11010 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1' (28#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1' (28#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
 	Parameter C_WIDTH bound to: 13 - type: integer 
 	Parameter C_AWIDTH bound to: 5 - type: integer 
 	Parameter C_DEPTH bound to: 32 - type: integer 
@@ -689,9 +689,9 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_
 	Parameter C_EMPTY_PRE bound to: 5'b00000 
 	Parameter C_FULL bound to: 5'b11110 
 	Parameter C_FULL_PRE bound to: 5'b11010 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2' (28#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_r_channel' (29#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v:21]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axi_register_slice__parameterized0' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v:64]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2' (28#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_r_channel' (29#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v:21]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axi_register_slice__parameterized0' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v:64]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_AXI_PROTOCOL bound to: 2 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
@@ -784,7 +784,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axi_register_sl
 	Parameter G_AXI_RUSER_INDEX bound to: 34 - type: integer 
 	Parameter G_AXI_RUSER_WIDTH bound to: 0 - type: integer 
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_axi2vector__parameterized0' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_infrastructure_v1_1/cf21a66f/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_axi2vector__parameterized0' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_infrastructure_v1_1/cf21a66f/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v:60]
 	Parameter C_AXI_PROTOCOL bound to: 2 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
@@ -876,33 +876,33 @@ INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_axi2vector__par
 	Parameter G_AXI_RUSER_INDEX bound to: 34 - type: integer 
 	Parameter G_AXI_RUSER_WIDTH bound to: 0 - type: integer 
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_axi2vector__parameterized0' (29#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_infrastructure_v1_1/cf21a66f/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v:60]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized3' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_axi2vector__parameterized0' (29#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_infrastructure_v1_1/cf21a66f/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized3' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 35 - type: integer 
 	Parameter C_REG_CONFIG bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized3' (29#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized4' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized3' (29#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized4' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 36 - type: integer 
 	Parameter C_REG_CONFIG bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized4' (29#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized5' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized4' (29#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized5' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 2 - type: integer 
 	Parameter C_REG_CONFIG bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized5' (29#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized6' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized5' (29#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized6' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 35 - type: integer 
 	Parameter C_REG_CONFIG bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized6' (29#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized7' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized6' (29#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized7' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 34 - type: integer 
 	Parameter C_REG_CONFIG bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized7' (29#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
-INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_vector2axi__parameterized0' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_infrastructure_v1_1/cf21a66f/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized7' (29#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_vector2axi__parameterized0' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_infrastructure_v1_1/cf21a66f/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v:60]
 	Parameter C_AXI_PROTOCOL bound to: 2 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
@@ -994,15 +994,15 @@ INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_vector2axi__par
 	Parameter G_AXI_RUSER_INDEX bound to: 34 - type: integer 
 	Parameter G_AXI_RUSER_WIDTH bound to: 0 - type: integer 
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_vector2axi__parameterized0' (29#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_infrastructure_v1_1/cf21a66f/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v:60]
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axi_register_slice__parameterized0' (29#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v:64]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s' (30#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s.v:39]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_axi_protocol_converter' (31#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v:62]
-INFO: [Synth 8-256] done synthesizing module 'system_auto_pc_0' (32#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_auto_pc_0/synth/system_auto_pc_0.v:57]
-INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_IK3G2O' (33#1) [C:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:282]
-INFO: [Synth 8-3491] module 'system_xbar_0' declared at 'c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_xbar_0/synth/system_xbar_0.v:57' bound to instance 'xbar' of component 'system_xbar_0' [C:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:1024]
-INFO: [Synth 8-638] synthesizing module 'system_xbar_0' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_xbar_0/synth/system_xbar_0.v:57]
-INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_axi_crossbar' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v:54]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_vector2axi__parameterized0' (29#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_infrastructure_v1_1/cf21a66f/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axi_register_slice__parameterized0' (29#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v:64]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s' (30#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_b2s.v:39]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_axi_protocol_converter' (31#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v:62]
+INFO: [Synth 8-256] done synthesizing module 'system_auto_pc_0' (32#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_auto_pc_0/synth/system_auto_pc_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_IK3G2O' (33#1) [C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:282]
+INFO: [Synth 8-3491] module 'system_xbar_0' declared at 'c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_xbar_0/synth/system_xbar_0.v:57' bound to instance 'xbar' of component 'system_xbar_0' [C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:1024]
+INFO: [Synth 8-638] synthesizing module 'system_xbar_0' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_xbar_0/synth/system_xbar_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_axi_crossbar' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v:54]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_NUM_SLAVE_SLOTS bound to: 1 - type: integer 
 	Parameter C_NUM_MASTER_SLOTS bound to: 2 - type: integer 
@@ -1051,7 +1051,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_axi_crossbar' [c:/Xil
 	Parameter P_LEN bound to: 8 - type: integer 
 	Parameter P_LOCK bound to: 1 - type: integer 
 	Parameter P_FAMILY bound to: zynq - type: string 
-INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_crossbar_sasd' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v:79]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_crossbar_sasd' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v:79]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_NUM_SLAVE_SLOTS bound to: 1 - type: integer 
 	Parameter C_NUM_MASTER_SLOTS bound to: 2 - type: integer 
@@ -1104,7 +1104,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_crossbar_sasd' [c:/Xi
 	Parameter P_FULLY_REG bound to: 1 - type: integer 
 	Parameter P_R_REG_CONFIG bound to: 1 - type: integer 
 	Parameter P_DECERR bound to: 2'b11 
-INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_addr_arbiter_sasd' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_addr_arbiter_sasd.v:65]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_addr_arbiter_sasd' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_addr_arbiter_sasd.v:65]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_NUM_S bound to: 1 - type: integer 
 	Parameter C_NUM_S_LOG bound to: 1 - type: integer 
@@ -1112,8 +1112,8 @@ INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_addr_arbiter_sasd' [c
 	Parameter C_GRANT_ENC bound to: 1 - type: integer 
 	Parameter C_ARB_PRIORITY bound to: 0 - type: integer 
 	Parameter P_PRIO_MASK bound to: 1'b0 
-INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_addr_arbiter_sasd' (34#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_addr_arbiter_sasd.v:65]
-INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_addr_decoder' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v:69]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_addr_arbiter_sasd' (34#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_addr_arbiter_sasd.v:65]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_addr_decoder' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v:69]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_NUM_TARGETS bound to: 2 - type: integer 
 	Parameter C_NUM_TARGETS_LOG bound to: 1 - type: integer 
@@ -1127,68 +1127,68 @@ INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_addr_decoder' [c:/Xil
 	Parameter C_TARGET_QUAL bound to: 3'b011 
 	Parameter C_RESOLUTION bound to: 2 - type: integer 
 	Parameter C_COMPARATOR_THRESHOLD bound to: 6 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_comparator_static' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v:61]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_comparator_static' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v:61]
 	Parameter C_FAMILY bound to: rtl - type: string 
 	Parameter C_VALUE bound to: 30'b010000010010000000000000000000 
 	Parameter C_DATA_WIDTH bound to: 30 - type: integer 
 	Parameter C_BITS_PER_LUT bound to: 6 - type: integer 
 	Parameter C_NUM_LUT bound to: 5 - type: integer 
 	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_carry_and' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_carry_and.v:62]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_carry_and' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_carry_and.v:62]
 	Parameter C_FAMILY bound to: rtl - type: string 
-INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_carry_and' (35#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_carry_and.v:62]
-INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_comparator_static' (36#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v:61]
-INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_comparator_static__parameterized0' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v:61]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_carry_and' (35#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_carry_and.v:62]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_comparator_static' (36#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v:61]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_comparator_static__parameterized0' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v:61]
 	Parameter C_FAMILY bound to: rtl - type: string 
 	Parameter C_VALUE bound to: 30'b010000010010000100000000000000 
 	Parameter C_DATA_WIDTH bound to: 30 - type: integer 
 	Parameter C_BITS_PER_LUT bound to: 6 - type: integer 
 	Parameter C_NUM_LUT bound to: 5 - type: integer 
 	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_comparator_static__parameterized0' (36#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v:61]
-INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_addr_decoder' (37#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v:69]
-INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_splitter' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_splitter.v:72]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_comparator_static__parameterized0' (36#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_comparator_static.v:61]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_addr_decoder' (37#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_addr_decoder.v:69]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_splitter' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_splitter.v:72]
 	Parameter C_NUM_M bound to: 3 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_splitter' (38#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_splitter.v:72]
-INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_splitter__parameterized0' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_splitter.v:72]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_splitter' (38#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_splitter.v:72]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_splitter__parameterized0' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_splitter.v:72]
 	Parameter C_NUM_M bound to: 2 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_splitter__parameterized0' (38#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_splitter.v:72]
-INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_mux_enc' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v:63]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_splitter__parameterized0' (38#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_splitter.v:72]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_mux_enc' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v:63]
 	Parameter C_FAMILY bound to: rtl - type: string 
 	Parameter C_RATIO bound to: 3 - type: integer 
 	Parameter C_SEL_WIDTH bound to: 2 - type: integer 
 	Parameter C_DATA_WIDTH bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_mux_enc' (39#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v:63]
-INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_mux_enc__parameterized0' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v:63]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_mux_enc' (39#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v:63]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_mux_enc__parameterized0' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v:63]
 	Parameter C_FAMILY bound to: rtl - type: string 
 	Parameter C_RATIO bound to: 1 - type: integer 
 	Parameter C_SEL_WIDTH bound to: 1 - type: integer 
 	Parameter C_DATA_WIDTH bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_mux_enc__parameterized0' (39#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v:63]
-INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_mux_enc__parameterized1' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v:63]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_mux_enc__parameterized0' (39#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v:63]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_mux_enc__parameterized1' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v:63]
 	Parameter C_FAMILY bound to: rtl - type: string 
 	Parameter C_RATIO bound to: 1 - type: integer 
 	Parameter C_SEL_WIDTH bound to: 1 - type: integer 
 	Parameter C_DATA_WIDTH bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_mux_enc__parameterized1' (39#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v:63]
-INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_mux_enc__parameterized2' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v:63]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_mux_enc__parameterized1' (39#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v:63]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_mux_enc__parameterized2' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v:63]
 	Parameter C_FAMILY bound to: rtl - type: string 
 	Parameter C_RATIO bound to: 3 - type: integer 
 	Parameter C_SEL_WIDTH bound to: 2 - type: integer 
 	Parameter C_DATA_WIDTH bound to: 36 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_mux_enc__parameterized2' (39#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v:63]
-INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized8' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_mux_enc__parameterized2' (39#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v:63]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized8' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_DATA_WIDTH bound to: 36 - type: integer 
 	Parameter C_REG_CONFIG bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized8' (39#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
-INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_mux_enc__parameterized3' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v:63]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axic_register_slice__parameterized8' (39#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:62]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_mux_enc__parameterized3' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v:63]
 	Parameter C_FAMILY bound to: rtl - type: string 
 	Parameter C_RATIO bound to: 3 - type: integer 
 	Parameter C_SEL_WIDTH bound to: 2 - type: integer 
 	Parameter C_DATA_WIDTH bound to: 3 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_mux_enc__parameterized3' (39#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v:63]
-INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_decerr_slave' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v:64]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_mux_enc__parameterized3' (39#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/generic_baseblocks_v2_1/da89d453/hdl/verilog/generic_baseblocks_v2_1_mux_enc.v:63]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_decerr_slave' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v:64]
 	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
 	Parameter C_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_AXI_BUSER_WIDTH bound to: 1 - type: integer 
@@ -1203,13 +1203,13 @@ INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_decerr_slave' [c:/Xil
 	Parameter P_AXI4 bound to: 0 - type: integer 
 	Parameter P_AXI3 bound to: 1 - type: integer 
 	Parameter P_AXILITE bound to: 2 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_decerr_slave' (40#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v:64]
-INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_crossbar_sasd' (41#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v:79]
-INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_axi_crossbar' (42#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v:54]
-INFO: [Synth 8-256] done synthesizing module 'system_xbar_0' (43#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_xbar_0/synth/system_xbar_0.v:57]
-INFO: [Synth 8-256] done synthesizing module 'system_processing_system7_0_axi_periph_0' (44#1) [C:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:617]
-INFO: [Synth 8-3491] module 'system_rst_processing_system7_0_100M_0' declared at 'c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/synth/system_rst_processing_system7_0_100M_0.vhd:59' bound to instance 'rst_processing_system7_0_100M' of component 'system_rst_processing_system7_0_100M_0' [C:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:1536]
-INFO: [Synth 8-638] synthesizing module 'system_rst_processing_system7_0_100M_0' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/synth/system_rst_processing_system7_0_100M_0.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_decerr_slave' (40#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v:64]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_crossbar_sasd' (41#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_crossbar_sasd.v:79]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_axi_crossbar' (42#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_axi_crossbar.v:54]
+INFO: [Synth 8-256] done synthesizing module 'system_xbar_0' (43#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_xbar_0/synth/system_xbar_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 'system_processing_system7_0_axi_periph_0' (44#1) [C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:617]
+INFO: [Synth 8-3491] module 'system_rst_processing_system7_0_100M_0' declared at 'c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/synth/system_rst_processing_system7_0_100M_0.vhd:59' bound to instance 'rst_processing_system7_0_100M' of component 'system_rst_processing_system7_0_100M_0' [C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:1536]
+INFO: [Synth 8-638] synthesizing module 'system_rst_processing_system7_0_100M_0' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/synth/system_rst_processing_system7_0_100M_0.vhd:74]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
 	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
@@ -1219,8 +1219,8 @@ INFO: [Synth 8-638] synthesizing module 'system_rst_processing_system7_0_100M_0'
 	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
 	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
 	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'proc_sys_reset' declared at 'c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/proc_sys_reset.vhd:140' bound to instance 'U0' of component 'proc_sys_reset' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/synth/system_rst_processing_system7_0_100M_0.vhd:120]
-INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/proc_sys_reset.vhd:199]
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at 'c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/proc_sys_reset.vhd:140' bound to instance 'U0' of component 'proc_sys_reset' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/synth/system_rst_processing_system7_0_100M_0.vhd:120]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/proc_sys_reset.vhd:199]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
 	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
@@ -1230,16 +1230,16 @@ INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [c:/Xilinx/CECS-461/Lab
 	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
 	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
 	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'lpf' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/lpf.vhd:138]
+INFO: [Synth 8-638] synthesizing module 'lpf' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/lpf.vhd:138]
 	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
 	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
 	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
 	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
-INFO: [Synth 8-3491] module 'SRL16' declared at 'C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:34522' bound to instance 'POR_SRL_I' of component 'SRL16' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/lpf.vhd:190]
+INFO: [Synth 8-3491] module 'SRL16' declared at 'C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:34522' bound to instance 'POR_SRL_I' of component 'SRL16' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/lpf.vhd:190]
 INFO: [Synth 8-638] synthesizing module 'SRL16' [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:34522]
 	Parameter INIT bound to: 16'b0000000000000000 
 INFO: [Synth 8-256] done synthesizing module 'SRL16' (45#1) [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:34522]
-INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized0' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized0' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:106]
 	Parameter C_CDC_TYPE bound to: 1 - type: integer 
 	Parameter C_RESET_STATE bound to: 0 - type: integer 
 	Parameter C_SINGLE_BIT bound to: 1 - type: integer 
@@ -1247,19 +1247,19 @@ INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized0' [c:/Xilinx/CE
 	Parameter C_VECTOR_WIDTH bound to: 2 - type: integer 
 	Parameter C_MTBF_STAGES bound to: 4 - type: integer 
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:514]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:514]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:545]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:545]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:554]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:554]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:564]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:564]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:574]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:574]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:584]
-INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized0' (45#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:106]
-INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized1' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:106]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized0' (45#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized1' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:106]
 	Parameter C_CDC_TYPE bound to: 1 - type: integer 
 	Parameter C_RESET_STATE bound to: 0 - type: integer 
 	Parameter C_SINGLE_BIT bound to: 1 - type: integer 
@@ -1267,28 +1267,28 @@ INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized1' [c:/Xilinx/CE
 	Parameter C_VECTOR_WIDTH bound to: 2 - type: integer 
 	Parameter C_MTBF_STAGES bound to: 4 - type: integer 
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:514]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:514]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:545]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:545]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:554]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:554]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:564]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:564]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:574]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:574]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:584]
-INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized1' (45#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:106]
-INFO: [Synth 8-256] done synthesizing module 'lpf' (46#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/lpf.vhd:138]
-INFO: [Synth 8-638] synthesizing module 'sequence' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/sequence.vhd:146]
-INFO: [Synth 8-638] synthesizing module 'upcnt_n' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/upcnt_n.vhd:125]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized1' (45#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (46#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/lpf.vhd:138]
+INFO: [Synth 8-638] synthesizing module 'sequence' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/sequence.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/upcnt_n.vhd:125]
 	Parameter C_SIZE bound to: 6 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (47#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/upcnt_n.vhd:125]
-INFO: [Synth 8-256] done synthesizing module 'sequence' (48#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/sequence.vhd:146]
-INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (49#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/proc_sys_reset.vhd:199]
-INFO: [Synth 8-256] done synthesizing module 'system_rst_processing_system7_0_100M_0' (50#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/synth/system_rst_processing_system7_0_100M_0.vhd:74]
-INFO: [Synth 8-3491] module 'system_axi_gpio_0_0' declared at 'c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/synth/system_axi_gpio_0_0.vhd:59' bound to instance 'switches' of component 'system_axi_gpio_0_0' [C:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:1549]
-INFO: [Synth 8-638] synthesizing module 'system_axi_gpio_0_0' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/synth/system_axi_gpio_0_0.vhd:84]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (47#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/upcnt_n.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'sequence' (48#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/sequence.vhd:146]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (49#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/proc_sys_reset.vhd:199]
+INFO: [Synth 8-256] done synthesizing module 'system_rst_processing_system7_0_100M_0' (50#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/synth/system_rst_processing_system7_0_100M_0.vhd:74]
+INFO: [Synth 8-3491] module 'system_axi_gpio_0_0' declared at 'c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/synth/system_axi_gpio_0_0.vhd:59' bound to instance 'switches' of component 'system_axi_gpio_0_0' [C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:1549]
+INFO: [Synth 8-638] synthesizing module 'system_axi_gpio_0_0' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/synth/system_axi_gpio_0_0.vhd:84]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -1304,12 +1304,12 @@ INFO: [Synth 8-638] synthesizing module 'system_axi_gpio_0_0' [c:/Xilinx/CECS-46
 	Parameter C_IS_DUAL bound to: 0 - type: integer 
 	Parameter C_DOUT_DEFAULT_2 bound to: 32'b00000000000000000000000000000000 
 	Parameter C_TRI_DEFAULT_2 bound to: 32'b11111111111111111111111111111111 
-INFO: [Synth 8-3491] module 'axi_gpio' declared at 'c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_gpio_v2_0/e416c384/hdl/src/vhdl/axi_gpio.vhd:189' bound to instance 'U0' of component 'axi_gpio' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/synth/system_axi_gpio_0_0.vhd:163]
-INFO: [Synth 8-256] done synthesizing module 'system_axi_gpio_0_0' (51#1) [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/synth/system_axi_gpio_0_0.vhd:84]
-INFO: [Synth 8-256] done synthesizing module 'system' (52#1) [C:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:1121]
-INFO: [Synth 8-256] done synthesizing module 'system_wrapper' (53#1) [C:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system_wrapper.vhd:42]
+INFO: [Synth 8-3491] module 'axi_gpio' declared at 'c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_gpio_v2_0/e416c384/hdl/src/vhdl/axi_gpio.vhd:189' bound to instance 'U0' of component 'axi_gpio' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/synth/system_axi_gpio_0_0.vhd:163]
+INFO: [Synth 8-256] done synthesizing module 'system_axi_gpio_0_0' (51#1) [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/synth/system_axi_gpio_0_0.vhd:84]
+INFO: [Synth 8-256] done synthesizing module 'system' (52#1) [C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system.vhd:1121]
+INFO: [Synth 8-256] done synthesizing module 'system_wrapper' (53#1) [C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/hdl/system_wrapper.vhd:42]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 446.230 ; gain = 269.398
+Finished RTL Elaboration : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 446.715 ; gain = 269.480
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -1319,7 +1319,7 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 446.230 ; gain = 269.398
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 446.715 ; gain = 269.480
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 61 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -1328,25 +1328,25 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc] for cell 'system_i/processing_system7_0/inst'
-Finished Parsing XDC File [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc] for cell 'system_i/processing_system7_0/inst'
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_wrapper_propImpl.xdc].
+Parsing XDC File [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc] for cell 'system_i/processing_system7_0/inst'
+Finished Parsing XDC File [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc] for cell 'system_i/processing_system7_0/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_wrapper_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/system_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_board.xdc] for cell 'system_i/switches/U0'
-Finished Parsing XDC File [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_board.xdc] for cell 'system_i/switches/U0'
-Parsing XDC File [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0.xdc] for cell 'system_i/switches/U0'
-Finished Parsing XDC File [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0.xdc] for cell 'system_i/switches/U0'
-Parsing XDC File [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0_board.xdc] for cell 'system_i/rst_processing_system7_0_100M'
-Finished Parsing XDC File [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0_board.xdc] for cell 'system_i/rst_processing_system7_0_100M'
-Parsing XDC File [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0.xdc] for cell 'system_i/rst_processing_system7_0_100M'
-Finished Parsing XDC File [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0.xdc] for cell 'system_i/rst_processing_system7_0_100M'
-Parsing XDC File [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/system_axi_gpio_0_1_board.xdc] for cell 'system_i/buttons/U0'
-Finished Parsing XDC File [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/system_axi_gpio_0_1_board.xdc] for cell 'system_i/buttons/U0'
-Parsing XDC File [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/system_axi_gpio_0_1.xdc] for cell 'system_i/buttons/U0'
-Finished Parsing XDC File [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/system_axi_gpio_0_1.xdc] for cell 'system_i/buttons/U0'
-Parsing XDC File [C:/Xilinx/CECS-461/Lab_2/project_2/project_2.runs/synth_1/dont_touch.xdc]
-Finished Parsing XDC File [C:/Xilinx/CECS-461/Lab_2/project_2/project_2.runs/synth_1/dont_touch.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Xilinx/CECS-461/Lab_2/project_2/project_2.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_wrapper_propImpl.xdc].
+Parsing XDC File [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_board.xdc] for cell 'system_i/switches/U0'
+Finished Parsing XDC File [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_board.xdc] for cell 'system_i/switches/U0'
+Parsing XDC File [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0.xdc] for cell 'system_i/switches/U0'
+Finished Parsing XDC File [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0.xdc] for cell 'system_i/switches/U0'
+Parsing XDC File [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0_board.xdc] for cell 'system_i/rst_processing_system7_0_100M'
+Finished Parsing XDC File [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0_board.xdc] for cell 'system_i/rst_processing_system7_0_100M'
+Parsing XDC File [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0.xdc] for cell 'system_i/rst_processing_system7_0_100M'
+Finished Parsing XDC File [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0.xdc] for cell 'system_i/rst_processing_system7_0_100M'
+Parsing XDC File [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/system_axi_gpio_0_1_board.xdc] for cell 'system_i/buttons/U0'
+Finished Parsing XDC File [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/system_axi_gpio_0_1_board.xdc] for cell 'system_i/buttons/U0'
+Parsing XDC File [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/system_axi_gpio_0_1.xdc] for cell 'system_i/buttons/U0'
+Finished Parsing XDC File [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/system_axi_gpio_0_1.xdc] for cell 'system_i/buttons/U0'
+Parsing XDC File [C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_wrapper_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/system_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
@@ -1355,23 +1355,23 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   FDR => FDRE: 60 instances
   SRL16 => SRL16E: 1 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 671.609 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 671.195 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 671.609 ; gain = 494.777
+Finished Constraint Validation : Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 671.195 ; gain = 493.961
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 671.609 ; gain = 494.777
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 671.195 ; gain = 493.961
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property DONT_TOUCH = true for system_i/processing_system7_0/inst. (constraint file  C:/Xilinx/CECS-461/Lab_2/project_2/project_2.runs/synth_1/dont_touch.xdc, line 29).
-Applied set_property DONT_TOUCH = true for system_i/switches/U0. (constraint file  C:/Xilinx/CECS-461/Lab_2/project_2/project_2.runs/synth_1/dont_touch.xdc, line 32).
-Applied set_property DONT_TOUCH = true for system_i/buttons/U0. (constraint file  C:/Xilinx/CECS-461/Lab_2/project_2/project_2.runs/synth_1/dont_touch.xdc, line 48).
+Applied set_property DONT_TOUCH = true for system_i/processing_system7_0/inst. (constraint file  C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.runs/synth_1/dont_touch.xdc, line 29).
+Applied set_property DONT_TOUCH = true for system_i/switches/U0. (constraint file  C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.runs/synth_1/dont_touch.xdc, line 32).
+Applied set_property DONT_TOUCH = true for system_i/buttons/U0. (constraint file  C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.runs/synth_1/dont_touch.xdc, line 48).
 Applied set_property DONT_TOUCH = true for system_i. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for system_i/buttons. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for system_i/processing_system7_0. (constraint file  auto generated constraint, line ).
@@ -1381,7 +1381,7 @@ Applied set_property DONT_TOUCH = true for system_i/processing_system7_0_axi_per
 Applied set_property DONT_TOUCH = true for system_i/rst_processing_system7_0_100M. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for system_i/switches. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:44 ; elapsed = 00:00:48 . Memory (MB): peak = 671.609 ; gain = 494.777
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 671.195 ; gain = 493.961
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5544] ROM "s_axi_rresp_i" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "s_axi_rresp_i" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
@@ -1396,10 +1396,10 @@ INFO: [Synth 8-5544] ROM "p_0_in1" won't be mapped to Block RAM because address 
 INFO: [Synth 8-5544] ROM "p_2_out0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "p_0_in2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "p_0_in1" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
-INFO: [Synth 8-4471] merging register 'gen_axilite.s_axi_wready_i_reg' into 'gen_axilite.s_axi_awready_i_reg' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v:136]
-INFO: [Synth 8-4471] merging register 'seq_cnt_en_reg' into 'from_sys_reg' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/sequence.vhd:222]
+INFO: [Synth 8-4471] merging register 'gen_axilite.s_axi_wready_i_reg' into 'gen_axilite.s_axi_awready_i_reg' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v:136]
+INFO: [Synth 8-4471] merging register 'seq_cnt_en_reg' into 'from_sys_reg' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/sequence.vhd:222]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 671.609 ; gain = 494.777
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:50 ; elapsed = 00:00:53 . Memory (MB): peak = 671.195 ; gain = 493.961
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1737,18 +1737,18 @@ BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 671.609 ; gain = 494.777
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:50 ; elapsed = 00:00:53 . Memory (MB): peak = 671.195 ; gain = 493.961
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-4471] merging register 'bus2ip_reset_reg' into 'AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rst_reg' [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_gpio_v2_0/e416c384/hdl/src/vhdl/axi_gpio.vhd:608]
-INFO: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg' and it is trimmed from '66' to '62' bits. [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
-INFO: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg' and it is trimmed from '66' to '62' bits. [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
-INFO: [Synth 8-3936] Found unconnected internal register 'inst/gen_sasd.crossbar_sasd_0/reg_slice_r/m_payload_i_reg' and it is trimmed from '36' to '35' bits. [c:/Xilinx/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
+INFO: [Synth 8-4471] merging register 'bus2ip_reset_reg' into 'AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rst_reg' [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_gpio_v2_0/e416c384/hdl/src/vhdl/axi_gpio.vhd:608]
+INFO: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg' and it is trimmed from '66' to '62' bits. [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
+INFO: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg' and it is trimmed from '66' to '62' bits. [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
+INFO: [Synth 8-3936] Found unconnected internal register 'inst/gen_sasd.crossbar_sasd_0/reg_slice_r/m_payload_i_reg' and it is trimmed from '36' to '35' bits. [c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 671.609 ; gain = 494.777
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:50 ; elapsed = 00:00:54 . Memory (MB): peak = 671.195 ; gain = 493.961
 ---------------------------------------------------------------------------------
-Finished Parallel Reinference  : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 671.609 ; gain = 494.777
+Finished Parallel Reinference  : Time (s): cpu = 00:00:50 ; elapsed = 00:00:54 . Memory (MB): peak = 671.195 ; gain = 493.961
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -1759,16 +1759,16 @@ Report RTL Partitions:
 Start Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 671.609 ; gain = 494.777
+Finished Area Optimization : Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 671.195 ; gain = 493.961
 ---------------------------------------------------------------------------------
-Finished Parallel Area Optimization  : Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 671.609 ; gain = 494.777
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 671.195 ; gain = 493.961
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 671.609 ; gain = 494.777
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 671.195 ; gain = 493.961
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
@@ -1776,10 +1776,10 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:59 ; elapsed = 00:01:04 . Memory (MB): peak = 805.180 ; gain = 628.348
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:04 ; elapsed = 00:01:07 . Memory (MB): peak = 805.852 ; gain = 628.617
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:59 ; elapsed = 00:01:04 . Memory (MB): peak = 822.246 ; gain = 645.414
+Finished Timing Optimization : Time (s): cpu = 00:01:04 ; elapsed = 00:01:08 . Memory (MB): peak = 821.934 ; gain = 644.699
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1892,7 +1892,7 @@ INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_
 INFO: [Synth 8-3332] Sequential element (\inst/gen_sasd.crossbar_sasd_0/reg_slice_r/skid_buffer_reg[35] ) is unused and will be removed from module system_xbar_0.
 INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:01 ; elapsed = 00:01:06 . Memory (MB): peak = 839.512 ; gain = 662.680
+Finished Technology Mapping : Time (s): cpu = 00:01:06 ; elapsed = 00:01:10 . Memory (MB): peak = 839.715 ; gain = 662.480
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1932,7 +1932,7 @@ INFO: [Synth 8-4618] Found max_fanout attribute set to 10 on net \inst/gen_axili
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 839.512 ; gain = 662.680
+Finished IO Insertion : Time (s): cpu = 00:01:07 ; elapsed = 00:01:11 . Memory (MB): peak = 839.715 ; gain = 662.480
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -1945,7 +1945,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 839.512 ; gain = 662.680
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:07 ; elapsed = 00:01:11 . Memory (MB): peak = 839.715 ; gain = 662.480
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1957,13 +1957,13 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 839.512 ; gain = 662.680
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:08 ; elapsed = 00:01:12 . Memory (MB): peak = 839.715 ; gain = 662.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Start Renaming Generated Ports : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 839.512 ; gain = 662.680
+Start Renaming Generated Ports : Time (s): cpu = 00:01:08 ; elapsed = 00:01:12 . Memory (MB): peak = 839.715 ; gain = 662.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 839.512 ; gain = 662.680
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:08 ; elapsed = 00:01:12 . Memory (MB): peak = 839.715 ; gain = 662.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -2086,11 +2086,11 @@ Report Instance Areas:
 |59    |          \Not_Dual.INPUT_DOUBLE_REGS3             |cdc_sync                                                    |    16|
 +------+---------------------------------------------------+------------------------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 839.512 ; gain = 662.680
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:08 ; elapsed = 00:01:12 . Memory (MB): peak = 839.715 ; gain = 662.480
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:56 . Memory (MB): peak = 839.512 ; gain = 343.410
-Synthesis Optimization Complete : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 839.512 ; gain = 662.680
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:01:00 . Memory (MB): peak = 839.715 ; gain = 344.707
+Synthesis Optimization Complete : Time (s): cpu = 00:01:08 ; elapsed = 00:01:12 . Memory (MB): peak = 839.715 ; gain = 662.480
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 107 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -2105,6 +2105,6 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 377 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:01 ; elapsed = 00:01:05 . Memory (MB): peak = 839.512 ; gain = 568.789
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 839.512 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Thu Feb 01 07:27:02 2018...
+synth_design: Time (s): cpu = 00:01:06 ; elapsed = 00:01:09 . Memory (MB): peak = 839.715 ; gain = 569.188
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 839.715 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 20 21:42:44 2018...

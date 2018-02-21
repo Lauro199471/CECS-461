@@ -1,0 +1,122 @@
+16:32:51 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+16:32:53 INFO  : Processing command line option -hwspec C:/Users/Lauro/Desktop/CECS-461/Example_GPIO/gpioExample/gpioExample.sdk/design_1_wrapper.hdf.
+16:32:53 INFO  : XSDB server has started successfully.
+16:39:10 INFO  : ps7_init is completed.
+16:39:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:39:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:39:41 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0' command is executed.
+16:39:43 INFO  : Mermory regions for PS have been updated.
+16:39:44 INFO  : Sourcing of 'C:/Users/Lauro/Desktop/CECS-461/Example_GPIO/gpioExample/gpioExample.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+16:39:44 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0' command is executed.
+16:39:45 INFO  : 'ps7_init' command is executed.
+16:39:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:39:45 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+16:39:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:39:46 INFO  : The application 'C:/Users/Lauro/Desktop/CECS-461/Example_GPIO/gpioExample/gpioExample.sdk/HelloworldLauro/Debug/HelloworldLauro.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:39:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+source C:/Users/Lauro/Desktop/CECS-461/Example_GPIO/gpioExample/gpioExample.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+ps7_init
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+dow C:/Users/Lauro/Desktop/CECS-461/Example_GPIO/gpioExample/gpioExample.sdk/HelloworldLauro/Debug/HelloworldLauro.elf
+----------------End of Script----------------
+
+16:39:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:39:46 INFO  : 'con' command is executed.
+16:39:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+con
+----------------End of Script----------------
+
+16:44:26 INFO  : Disconnected from the channel tcfchan#1.
+16:44:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:44:26 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0' command is executed.
+16:44:29 INFO  : Mermory regions for PS have been updated.
+16:44:29 INFO  : Sourcing of 'C:/Users/Lauro/Desktop/CECS-461/Example_GPIO/gpioExample/gpioExample.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+16:44:30 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0' command is executed.
+16:44:30 ERROR : Cannot halt processor core, timeout
+16:44:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+source C:/Users/Lauro/Desktop/CECS-461/Example_GPIO/gpioExample/gpioExample.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+ps7_init
+----------------End of Script----------------
+
+16:44:45 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:995)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:506)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:588)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:45:37 INFO  : ps7_init is completed.
+16:45:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:45:57 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

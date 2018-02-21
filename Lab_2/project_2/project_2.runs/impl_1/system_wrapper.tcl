@@ -49,11 +49,29 @@ start_step init_design
 set rc [catch {
   create_msg_db init_design.pb
   debug::add_scope template.lib 1
-  open_checkpoint C:/Xilinx/CECS-461/Lab_2/project_2/project_2.runs/impl_1/system_wrapper.dcp
-  set_property webtalk.parent_dir C:/Xilinx/CECS-461/Lab_2/project_2/project_2.cache/wt [current_project]
-  set_property parent.project_path C:/Xilinx/CECS-461/Lab_2/project_2/project_2.xpr [current_project]
-  set_property ip_repo_paths c:/Xilinx/CECS-461/Lab_2/project_2/project_2.cache/ip [current_project]
-  set_property ip_output_repo c:/Xilinx/CECS-461/Lab_2/project_2/project_2.cache/ip [current_project]
+  create_project -in_memory -part xc7z010clg400-1
+  set_property board_part digilentinc.com:zybo:part0:1.0 [current_project]
+  set_property design_mode GateLvl [current_fileset]
+  set_property webtalk.parent_dir C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.cache/wt [current_project]
+  set_property parent.project_path C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.xpr [current_project]
+  set_property ip_repo_paths c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.cache/ip [current_project]
+  set_property ip_output_repo c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.cache/ip [current_project]
+  add_files -quiet C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.runs/synth_1/system_wrapper.dcp
+  read_xdc -ref system_processing_system7_0_0 -cells inst c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc
+  set_property processing_order EARLY [get_files c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc]
+  read_xdc -prop_thru_buffers -ref system_axi_gpio_0_0 -cells U0 c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_board.xdc
+  set_property processing_order EARLY [get_files c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_board.xdc]
+  read_xdc -ref system_axi_gpio_0_0 -cells U0 c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0.xdc
+  set_property processing_order EARLY [get_files c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0.xdc]
+  read_xdc -prop_thru_buffers -ref system_rst_processing_system7_0_100M_0 c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0_board.xdc
+  set_property processing_order EARLY [get_files c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0_board.xdc]
+  read_xdc -ref system_rst_processing_system7_0_100M_0 c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0.xdc
+  set_property processing_order EARLY [get_files c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0.xdc]
+  read_xdc -prop_thru_buffers -ref system_axi_gpio_0_1 -cells U0 c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/system_axi_gpio_0_1_board.xdc
+  set_property processing_order EARLY [get_files c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/system_axi_gpio_0_1_board.xdc]
+  read_xdc -ref system_axi_gpio_0_1 -cells U0 c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/system_axi_gpio_0_1.xdc
+  set_property processing_order EARLY [get_files c:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_1/system_axi_gpio_0_1.xdc]
+  link_design -top system_wrapper -part xc7z010clg400-1
   close_msg_db -file init_design.pb
 } RESULT]
 if {$rc} {
