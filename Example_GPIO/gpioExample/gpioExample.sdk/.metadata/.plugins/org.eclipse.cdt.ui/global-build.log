@@ -127,3 +127,1291 @@ arm-xilinx-eabi-size HelloworldLauro.elf  |tee "HelloworldLauro.elf.size"
 16:45:35 **** Incremental Build of configuration Debug for project HelloworldLauro ****
 make all 
 make: Nothing to be done for `all'.
+07:51:52 **** Clean-only build of project HelloworldLauro_bsp ****
+make -k clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+07:51:52 **** Clean-only build of configuration Debug for project HelloworldLauro ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  HelloworldLauro.elf.size  HelloworldLauro.elf
+' '
+07:51:53 **** Build of project HelloworldLauro_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+07:52:30 **** Build of configuration Debug for project HelloworldLauro ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../HelloworldLauro_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../HelloworldLauro_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: HelloworldLauro.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../HelloworldLauro_bsp/ps7_cortexa9_0/lib -o "HelloworldLauro.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: HelloworldLauro.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size HelloworldLauro.elf  |tee "HelloworldLauro.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22904	   1152	  22564	  46620	   b61c	HelloworldLauro.elf
+'Finished building: HelloworldLauro.elf.size'
+' '
+07:52:45 **** Auto Build of configuration Debug for project HelloworldLauro ****
+make all 
+make: Nothing to be done for `all'.
+07:56:14 **** Build of project lauroGPIOTesting_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+07:56:53 **** Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+07:57:41 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+07:58:21 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22916	   1152	  22564	  46632	   b628	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:00:14 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22916	   1152	  22564	  46632	   b628	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:01:16 **** Incremental Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+make: Nothing to be done for `all'.
+08:02:00 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22916	   1152	  22564	  46632	   b628	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:02:35 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22916	   1152	  22564	  46632	   b628	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:02:49 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22916	   1152	  22564	  46632	   b628	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:03:05 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:8:6: error: conflicting types for 'print'
+ void print(char *str);
+      ^
+In file included from ../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include/xgpio_l.h:84,
+                 from ../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include/xgpio.h:118,
+                 from ../src/helloworld.c:6:
+../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include/xil_printf.h:36:6: note: previous declaration of 'print' was here
+ void print( const char8 *ptr);
+      ^
+make: *** [src/helloworld.o] Error 1
+08:03:16 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60748	   2320	  22636	  85704	  14ec8	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:03:27 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60748	   2320	  22636	  85704	  14ec8	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:07:35 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60748	   2320	  22636	  85704	  14ec8	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:10:30 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60748	   2320	  22636	  85704	  14ec8	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:12:14 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:18:21: warning: unused variable 'LED' [-Wunused-variable]
+  XGpio pushButton , LED;
+                     ^
+../src/helloworld.c:18:8: warning: unused variable 'pushButton' [-Wunused-variable]
+  XGpio pushButton , LED;
+        ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60748	   2320	  22636	  85704	  14ec8	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:12:17 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:18:21: warning: unused variable 'LED' [-Wunused-variable]
+  XGpio pushButton , LED;
+                     ^
+../src/helloworld.c:18:8: warning: unused variable 'pushButton' [-Wunused-variable]
+  XGpio pushButton , LED;
+        ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60748	   2320	  22636	  85704	  14ec8	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:12:34 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:18:21: warning: unused variable 'LED' [-Wunused-variable]
+  XGpio pushButton , LED; // 2 drivers in this application LED and pushButton
+                     ^
+../src/helloworld.c:18:8: warning: unused variable 'pushButton' [-Wunused-variable]
+  XGpio pushButton , LED; // 2 drivers in this application LED and pushButton
+        ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60748	   2320	  22636	  85704	  14ec8	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:13:29 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:19:21: warning: unused variable 'LED' [-Wunused-variable]
+  XGpio pushButton , LED; // 2 drivers in this application LED and pushButton
+                     ^
+../src/helloworld.c:19:8: warning: unused variable 'pushButton' [-Wunused-variable]
+  XGpio pushButton , LED; // 2 drivers in this application LED and pushButton
+        ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60748	   2320	  22636	  85704	  14ec8	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:14:09 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:20:21: warning: unused variable 'LED' [-Wunused-variable]
+  XGpio pushButton , LED; // 2 drivers in this application LED and pushButton
+                     ^
+../src/helloworld.c:20:8: warning: unused variable 'pushButton' [-Wunused-variable]
+  XGpio pushButton , LED; // 2 drivers in this application LED and pushButton
+        ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60748	   2320	  22636	  85704	  14ec8	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:14:13 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:20:21: warning: unused variable 'LED' [-Wunused-variable]
+  XGpio pushButton , LED; // 2 drivers in this application LED and pushButton
+                     ^
+../src/helloworld.c:20:8: warning: unused variable 'pushButton' [-Wunused-variable]
+  XGpio pushButton , LED; // 2 drivers in this application LED and pushButton
+        ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60748	   2320	  22636	  85704	  14ec8	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:14:29 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:21:21: warning: unused variable 'LED' [-Wunused-variable]
+  XGpio pushButton , LED; // 2 drivers in this application LED and pushButton
+                     ^
+../src/helloworld.c:21:8: warning: unused variable 'pushButton' [-Wunused-variable]
+  XGpio pushButton , LED; // 2 drivers in this application LED and pushButton
+        ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60748	   2320	  22636	  85704	  14ec8	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:15:02 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:22:29: warning: unused variable 'LED_check' [-Wunused-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+                             ^
+../src/helloworld.c:22:10: warning: unused variable 'pushButton_check' [-Wunused-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+          ^
+../src/helloworld.c:21:21: warning: unused variable 'LED' [-Wunused-variable]
+  XGpio pushButton , LED; // 2 drivers in this application LED and pushButton
+                     ^
+../src/helloworld.c:21:8: warning: unused variable 'pushButton' [-Wunused-variable]
+  XGpio pushButton , LED; // 2 drivers in this application LED and pushButton
+        ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60748	   2320	  22636	  85704	  14ec8	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:15:10 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:22:29: warning: unused variable 'LED_check' [-Wunused-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+                             ^
+../src/helloworld.c:22:10: warning: unused variable 'pushButton_check' [-Wunused-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+          ^
+../src/helloworld.c:21:21: warning: unused variable 'LED' [-Wunused-variable]
+  XGpio pushButton , LED; // 2 drivers in this application LED and pushButton
+                     ^
+../src/helloworld.c:21:8: warning: unused variable 'pushButton' [-Wunused-variable]
+  XGpio pushButton , LED; // 2 drivers in this application LED and pushButton
+        ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60748	   2320	  22636	  85704	  14ec8	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:15:46 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:22:29: warning: unused variable 'LED_check' [-Wunused-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+                             ^
+../src/helloworld.c:22:10: warning: unused variable 'pushButton_check' [-Wunused-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+          ^
+../src/helloworld.c:21:21: warning: unused variable 'LED' [-Wunused-variable]
+  XGpio pushButton , LED; // 2 drivers in this application LED and pushButton
+                     ^
+../src/helloworld.c:21:8: warning: unused variable 'pushButton' [-Wunused-variable]
+  XGpio pushButton , LED; // 2 drivers in this application LED and pushButton
+        ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60748	   2320	  22636	  85704	  14ec8	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:15:54 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:22:29: warning: unused variable 'LED_check' [-Wunused-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+                             ^
+../src/helloworld.c:22:10: warning: unused variable 'pushButton_check' [-Wunused-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+          ^
+../src/helloworld.c:21:21: warning: unused variable 'LED' [-Wunused-variable]
+  XGpio pushButton , LED; // 2 drivers in this application LED and pushButton
+                     ^
+../src/helloworld.c:21:8: warning: unused variable 'pushButton' [-Wunused-variable]
+  XGpio pushButton , LED; // 2 drivers in this application LED and pushButton
+        ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60748	   2320	  22636	  85704	  14ec8	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:17:42 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:25:13: error: incompatible types when assigning to type 'XGpio' from type 'int'
+  pushButton = XGpio_Initialize(&pushButton,XPAR_LAUROPUSHBUTTON_DEVICE_ID)
+             ^
+../src/helloworld.c:27:5: error: expected ';' before 'printf'
+     printf("Hello World, Lauro LED and Button test\n\r");
+     ^
+../src/helloworld.c:22:29: warning: unused variable 'LED_check' [-Wunused-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+                             ^
+../src/helloworld.c:22:10: warning: unused variable 'pushButton_check' [-Wunused-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+          ^
+../src/helloworld.c:21:21: warning: unused variable 'LED' [-Wunused-variable]
+  XGpio pushButton , LED; // 2 drivers in this application LED and pushButton
+                     ^
+make: *** [src/helloworld.o] Error 1
+08:18:06 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:25:13: error: incompatible types when assigning to type 'XGpio' from type 'int'
+  pushButton = XGpio_Initialize(&pushButton,XPAR_LAUROPUSHBUTTON_DEVICE_ID);
+             ^
+../src/helloworld.c:22:29: warning: unused variable 'LED_check' [-Wunused-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+                             ^
+../src/helloworld.c:22:10: warning: unused variable 'pushButton_check' [-Wunused-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+          ^
+../src/helloworld.c:21:21: warning: unused variable 'LED' [-Wunused-variable]
+  XGpio pushButton , LED; // 2 drivers in this application LED and pushButton
+                     ^
+make: *** [src/helloworld.o] Error 1
+08:18:29 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:22:29: warning: unused variable 'LED_check' [-Wunused-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+                             ^
+../src/helloworld.c:22:10: warning: variable 'pushButton_check' set but not used [-Wunused-but-set-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+          ^
+../src/helloworld.c:21:21: warning: unused variable 'LED' [-Wunused-variable]
+  XGpio pushButton , LED; // 2 drivers in this application LED and pushButton
+                     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61924	   2352	  22652	  86928	  15390	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:19:17 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:22:29: warning: variable 'LED_check' set but not used [-Wunused-but-set-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+                             ^
+../src/helloworld.c:22:10: warning: variable 'pushButton_check' set but not used [-Wunused-but-set-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61988	   2352	  22652	  86992	  153d0	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:19:37 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:22:29: warning: variable 'LED_check' set but not used [-Wunused-but-set-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+                             ^
+../src/helloworld.c:22:10: warning: variable 'pushButton_check' set but not used [-Wunused-but-set-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61988	   2352	  22652	  86992	  153d0	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:19:45 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:22:29: warning: variable 'LED_check' set but not used [-Wunused-but-set-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+                             ^
+../src/helloworld.c:22:10: warning: variable 'pushButton_check' set but not used [-Wunused-but-set-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+          ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61988	   2352	  22652	  86992	  153d0	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:20:38 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:22:29: warning: variable 'LED_check' set but not used [-Wunused-but-set-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+                             ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62004	   2352	  22652	  87008	  153e0	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:21:19 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:22:29: warning: variable 'LED_check' set but not used [-Wunused-but-set-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+                             ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62028	   2352	  22652	  87032	  153f8	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:21:33 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:22:29: warning: variable 'LED_check' set but not used [-Wunused-but-set-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+                             ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62028	   2352	  22652	  87032	  153f8	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:21:58 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:22:29: warning: variable 'LED_check' set but not used [-Wunused-but-set-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+                             ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62028	   2352	  22652	  87032	  153f8	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:22:15 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:22:29: warning: variable 'LED_check' set but not used [-Wunused-but-set-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+                             ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62028	   2352	  22652	  87032	  153f8	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:22:29 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:22:29: warning: variable 'LED_check' set but not used [-Wunused-but-set-variable]
+  XStatus pushButton_check , LED_check; // Check to see if they are initilazed
+                             ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62028	   2352	  22652	  87032	  153f8	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:22:53 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:41:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62028	   2352	  22652	  87032	  153f8	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:23:05 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62092	   2352	  22652	  87096	  15438	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:23:36 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62116	   2352	  22652	  87120	  15450	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:23:54 **** Incremental Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+make: Nothing to be done for `all'.
+08:26:40 **** Incremental Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+make: Nothing to be done for `all'.
+08:30:10 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62116	   2352	  22652	  87120	  15450	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:31:05 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:50:37: error: expected expression before ')' token
+  XGpio_SetDataDirection(&pushButton,)
+                                     ^
+../src/helloworld.c:50:2: error: too few arguments to function 'XGpio_SetDataDirection'
+  XGpio_SetDataDirection(&pushButton,)
+  ^
+In file included from ../src/helloworld.c:17:0:
+../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include/xgpio.h:162:6: note: declared here
+ void XGpio_SetDataDirection(XGpio *InstancePtr, unsigned Channel,
+      ^
+../src/helloworld.c:52:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/helloworld.o] Error 1
+08:31:50 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:51:47: error: expected expression before ')' token
+  XGpio_SetDataDirection(&pushButton,CHANNEL_1,)
+                                               ^
+../src/helloworld.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/helloworld.o] Error 1
+08:31:58 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:52:5: error: expected ';' before 'return'
+     return 0;
+     ^
+../src/helloworld.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/helloworld.o] Error 1
+08:32:00 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62116	   2352	  22652	  87120	  15450	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:32:14 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62116	   2352	  22652	  87120	  15450	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:32:49 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62116	   2352	  22652	  87120	  15450	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:33:34 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62180	   2352	  22652	  87184	  15490	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:34:49 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:27:6: warning: unused variable 'pushButton_value' [-Wunused-variable]
+  int pushButton_value;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62180	   2352	  22652	  87184	  15490	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:35:35 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:28:6: warning: unused variable 'pushButton_value' [-Wunused-variable]
+  int pushButton_value;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62180	   2352	  22652	  87184	  15490	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:36:16 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:28:6: warning: unused variable 'pushButton_value' [-Wunused-variable]
+  int pushButton_value;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62180	   2352	  22652	  87184	  15490	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:37:48 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:28:6: warning: variable 'pushButton_value' set but not used [-Wunused-but-set-variable]
+  int pushButton_value;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62180	   2352	  22652	  87184	  15490	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:38:56 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62180	   2352	  22652	  87184	  15490	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:39:31 **** Incremental Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+make: Nothing to be done for `all'.
+08:40:57 **** Incremental Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+make: Nothing to be done for `all'.
+08:41:52 **** Incremental Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+make: Nothing to be done for `all'.
+08:42:13 **** Incremental Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+make: Nothing to be done for `all'.
+08:43:09 **** Incremental Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+make: Nothing to be done for `all'.
+08:44:20 **** Auto Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lauroGPIOTesting_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lauroGPIOTesting.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lauroGPIOTesting_bsp/ps7_cortexa9_0/lib -o "lauroGPIOTesting.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lauroGPIOTesting.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lauroGPIOTesting.elf  |tee "lauroGPIOTesting.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62180	   2352	  22652	  87184	  15490	lauroGPIOTesting.elf
+'Finished building: lauroGPIOTesting.elf.size'
+' '
+08:44:39 **** Incremental Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+make: Nothing to be done for `all'.
+08:46:17 **** Incremental Build of configuration Debug for project lauroGPIOTesting ****
+make all 
+make: Nothing to be done for `all'.

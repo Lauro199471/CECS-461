@@ -1,0 +1,24 @@
+/*
+ * The exact DeviceId information you can find in the xparameters.h file.
+ * The xparameters.h file contains base addresses of peripherals and defines parameters used to access peripherals in drivers and user programs.
+ *
+ * XGpio is a driver needed for AXI GPIO IP
+ * XGpiops is a driver needed for PS GPIO
+ *
+ */
+#include <stdio.h>
+#include "platform.h"
+
+// MUST INCLUDE THESE FILES
+#include "xparameters.h"
+#include "xgpio.h"
+
+int main()
+{
+    init_platform();
+
+    printf("Hello World, Lauro LED and Button test\n\r");
+
+    cleanup_platform();
+    return 0;
+}

@@ -120,3 +120,75 @@ java.lang.RuntimeException: Error in Resetting Target
 16:45:37 INFO  : ps7_init is completed.
 16:45:37 INFO  : Processor reset is completed for ps7_cortexa9_0
 16:45:57 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+07:51:39 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+07:51:41 INFO  : XSDB server has started successfully.
+07:51:41 INFO  : Processing command line option -hwspec C:/Users/Lauro/Desktop/CECS-461/Example_GPIO/gpioExample/gpioExample.sdk/design_1_wrapper.hdf.
+07:51:43 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+07:51:44 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1519227923082,  Project:1519173156545
+07:51:44 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/Users/Lauro/Desktop/CECS-461/Example_GPIO/gpioExample/gpioExample.sdk/design_1_wrapper.hdf.
+07:51:44 INFO  : Copied contents of C:/Users/Lauro/Desktop/CECS-461/Example_GPIO/gpioExample/gpioExample.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+07:51:48 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+07:51:50 INFO  : 
+07:51:51 INFO  : Updating hardware inferred compiler options for HelloworldLauro.
+07:51:51 INFO  : Clearing existing target manager status.
+07:51:52 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+07:51:52 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+07:53:04 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+07:54:45 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+07:54:46 INFO  : Processing command line option -hwspec C:/Users/Lauro/Desktop/CECS-461/Example_GPIO/gpioExample/gpioExample.sdk/design_1_wrapper.hdf.
+07:54:46 INFO  : XSDB server has started successfully.
+08:01:29 INFO  : ps7_init is completed.
+08:01:29 INFO  : ps7_post_config is completed.
+08:01:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:24:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:26:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:39:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:39:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+08:39:21 INFO  : FPGA configured successfully with bitstream "C:/Users/Lauro/Desktop/CECS-461/Example_GPIO/gpioExample/gpioExample.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+08:39:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:40:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:40:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+08:40:46 INFO  : FPGA configured successfully with bitstream "C:/Users/Lauro/Desktop/CECS-461/Example_GPIO/gpioExample/gpioExample.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+08:40:58 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+08:41:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:41:15 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:670)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:609)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+08:41:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:41:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+08:41:41 INFO  : FPGA configured successfully with bitstream "C:/Users/Lauro/Desktop/CECS-461/Example_GPIO/gpioExample/gpioExample.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+08:42:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:42:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+08:42:57 INFO  : FPGA configured successfully with bitstream "C:/Users/Lauro/Desktop/CECS-461/Example_GPIO/gpioExample/gpioExample.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+08:43:54 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+08:44:08 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+08:44:09 INFO  : XSDB server has started successfully.
+08:44:11 INFO  : Processing command line option -hwspec C:/Users/Lauro/Desktop/CECS-461/Example_GPIO/gpioExample/gpioExample.sdk/design_1_wrapper.hdf.
+08:44:11 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+08:44:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:44:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+08:44:30 INFO  : FPGA configured successfully with bitstream "C:/Users/Lauro/Desktop/CECS-461/Example_GPIO/gpioExample/gpioExample.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+08:44:43 INFO  : ps7_init is completed.
+08:44:43 INFO  : ps7_post_config is completed.
+08:44:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:46:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:46:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+08:46:04 INFO  : FPGA configured successfully with bitstream "C:/Users/Lauro/Desktop/CECS-461/Example_GPIO/gpioExample/gpioExample.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+08:46:18 INFO  : ps7_init is completed.
+08:46:18 INFO  : ps7_post_config is completed.
+08:46:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:47:20 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
