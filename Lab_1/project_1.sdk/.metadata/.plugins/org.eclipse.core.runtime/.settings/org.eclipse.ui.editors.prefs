@@ -1,2 +1,5 @@
 eclipse.preferences.version=1
+org.eclipse.cdt.ui.occurrenceIndicationColor=81,81,81
+org.eclipse.cdt.ui.overrideIndicatorColor=80,124,121
+org.eclipse.cdt.ui.writeOccurrenceIndicationColor=151,103,74
 overviewRuler_migration=migrated_3.1

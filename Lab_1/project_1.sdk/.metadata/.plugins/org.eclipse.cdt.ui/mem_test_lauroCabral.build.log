@@ -1,6 +1,26 @@
-18:46:16 **** Incremental Build of configuration Debug for project mem_test_lauroCabral ****
+13:35:34 **** Auto Build of configuration Debug for project mem_test_lauroCabral ****
 make all 
-make: Nothing to be done for `all'.
+'Building file: ../src/memorytest.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memorytest.o" -I../../mem_test_lauroCabral_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/memorytest.d" -MT"src/memorytest.d" -o "src/memorytest.o" "../src/memorytest.c"
+'Finished building: ../src/memorytest.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../mem_test_lauroCabral_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: mem_test_lauroCabral.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_test_lauroCabral_bsp/ps7_cortexa9_0/lib -o "mem_test_lauroCabral.elf"  ./src/memory_config_g.o ./src/memorytest.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mem_test_lauroCabral.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size mem_test_lauroCabral.elf  |tee "mem_test_lauroCabral.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26308	   1184	  14388	  41880	   a398	mem_test_lauroCabral.elf
+'Finished building: mem_test_lauroCabral.elf.size'
+' '
 
-18:46:16 Build Finished (took 180ms)
+13:35:37 Build Finished (took 2s.708ms)
 

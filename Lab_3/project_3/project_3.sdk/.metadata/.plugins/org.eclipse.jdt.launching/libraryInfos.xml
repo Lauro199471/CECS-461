@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\Xilinx\SDK\2015.2\tps\win64" version="1.8.0_25">
+<bootpath>
+<entry path="C:\Xilinx\SDK\2015.2\tps\win64\jre\lib\resources.jar"/>
+<entry path="C:\Xilinx\SDK\2015.2\tps\win64\jre\lib\rt.jar"/>
+<entry path="C:\Xilinx\SDK\2015.2\tps\win64\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Xilinx\SDK\2015.2\tps\win64\jre\lib\jsse.jar"/>
+<entry path="C:\Xilinx\SDK\2015.2\tps\win64\jre\lib\jce.jar"/>
+<entry path="C:\Xilinx\SDK\2015.2\tps\win64\jre\lib\charsets.jar"/>
+<entry path="C:\Xilinx\SDK\2015.2\tps\win64\jre\lib\jfr.jar"/>
+<entry path="C:\Xilinx\SDK\2015.2\tps\win64\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Xilinx\SDK\2015.2\tps\win64\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Xilinx\SDK\2015.2\tps\win64\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Xilinx\SDK\2015.2\tps\win64\jre" version="1.8.0_25">
+<bootpath>
+<entry path="C:\Xilinx\SDK\2015.2\tps\win64\jre\lib\resources.jar"/>
+<entry path="C:\Xilinx\SDK\2015.2\tps\win64\jre\lib\rt.jar"/>
+<entry path="C:\Xilinx\SDK\2015.2\tps\win64\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Xilinx\SDK\2015.2\tps\win64\jre\lib\jsse.jar"/>
+<entry path="C:\Xilinx\SDK\2015.2\tps\win64\jre\lib\jce.jar"/>
+<entry path="C:\Xilinx\SDK\2015.2\tps\win64\jre\lib\charsets.jar"/>
+<entry path="C:\Xilinx\SDK\2015.2\tps\win64\jre\lib\jfr.jar"/>
+<entry path="C:\Xilinx\SDK\2015.2\tps\win64\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Xilinx\SDK\2015.2\tps\win64\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Xilinx\SDK\2015.2\tps\win64\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

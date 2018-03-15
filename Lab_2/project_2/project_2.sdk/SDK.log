@@ -580,3 +580,19 @@ con
 
 23:13:50 INFO  : Disconnected from the channel tcfchan#7.
 23:13:52 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:40:00 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+13:40:01 INFO  : XSDB server has started successfully.
+13:40:02 INFO  : Processing command line option -hwspec C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper.hdf.
+13:40:03 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+13:40:06 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1521146366575,  Project:1519191841752
+13:40:06 INFO  : The hardware specification for project 'system_wrapper_hw_platform_1' is different from C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper.hdf.
+13:40:06 INFO  : Copied contents of C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_1\system.hdf.
+13:40:10 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:40:10 INFO  : Clearing existing target manager status.
+13:40:11 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+13:40:11 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+13:41:01 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:44:06 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+13:44:07 INFO  : XSDB server has started successfully.
+13:44:08 INFO  : Processing command line option -hwspec C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper.hdf.
+13:44:09 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.

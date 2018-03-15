@@ -1,4 +1,4 @@
-22:45:08 **** Auto Build of configuration Debug for project TestApp ****
+13:40:28 **** Auto Build of configuration Debug for project TestApp ****
 make all 
 'Building file: ../src/lab2.c'
 'Invoking: ARM gcc compiler'
@@ -17,5 +17,5 @@ arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
 'Finished building: TestApp.elf.size'
 ' '
 
-22:45:09 Build Finished (took 1s.199ms)
+13:40:29 Build Finished (took 1s.314ms)
 

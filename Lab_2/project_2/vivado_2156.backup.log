@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Mar 15 13:36:18 2018
+# Process ID: 8972
+# Log file: C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/vivado.log
+# Journal file: C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 772.453 ; gain = 173.211
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Mar 15 13:36:46 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.runs/synth_1/runme.log
+[Thu Mar 15 13:36:46 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.runs/impl_1/runme.log
+file copy -force C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.runs/impl_1/system_wrapper.sysdef C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper.hdf
+
+launch_sdk -workspace C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk -hwspec C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk -hwspec C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 15 13:41:06 2018...

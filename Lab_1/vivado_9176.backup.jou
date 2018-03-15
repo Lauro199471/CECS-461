@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Mar 15 13:25:41 2018
+# Process ID: 768
+# Log file: C:/Users/Lauro/Desktop/CECS-461/Lab_1/vivado.log
+# Journal file: C:/Users/Lauro/Desktop/CECS-461/Lab_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lauro/Desktop/CECS-461/Lab_1/project_1.xpr
+open_bd_design {C:/Users/Lauro/Desktop/CECS-461/Lab_1/project_1.srcs/sources_1/bd/system/system.bd}
+save_project_as lab_3 C:/Users/Lauro/Desktop/CECS-461/Lab_3/lab_3 -force
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+file copy -force C:/Users/Lauro/Desktop/CECS-461/Lab_3/lab_3/lab_3.runs/impl_1/system_wrapper.sysdef C:/Users/Lauro/Desktop/CECS-461/Lab_3/lab_3/lab_3.sdk/system_wrapper.hdf
+
+launch_sdk -workspace C:/Users/Lauro/Desktop/CECS-461/Lab_3/lab_3/lab_3.sdk -hwspec C:/Users/Lauro/Desktop/CECS-461/Lab_3/lab_3/lab_3.sdk/system_wrapper.hdf

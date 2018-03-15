@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# 
+# Start of session at: Thu Feb 01 07:06:31 2018
+# Process ID: 11236
+# Log file: C:/Xilinx/CECS-461/Lab_2/project_2/project_2.sdk/webtalk/webtalk.log
+# Journal file: C:/Xilinx/CECS-461/Lab_2/project_2/project_2.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
