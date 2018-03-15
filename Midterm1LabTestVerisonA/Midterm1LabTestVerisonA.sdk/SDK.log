@@ -1,0 +1,869 @@
+07:06:21 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+07:06:22 INFO  : Processing command line option -hwspec C:/Xilinx/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper.hdf.
+07:06:23 INFO  : XSDB server has started successfully.
+07:31:37 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+07:31:38 INFO  : XSDB server has started successfully.
+07:31:40 INFO  : Processing command line option -hwspec C:/Xilinx/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper.hdf.
+07:31:42 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+07:31:42 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1517499040238,  Project:1517497560513
+07:31:42 INFO  : The hardware specification for project 'system_wrapper_hw_platform_0' is different from C:/Xilinx/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper.hdf.
+07:31:42 INFO  : Copied contents of C:/Xilinx/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+07:31:45 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+07:31:45 INFO  : Clearing existing target manager status.
+07:31:47 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+07:31:47 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+07:32:17 INFO  : BSP Project P/standalone_bsp_0 has been successfully migrated.
+07:51:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:51:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+07:51:55 INFO  : FPGA configured successfully with bitstream "C:/Xilinx/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+07:52:15 INFO  : ps7_init is completed.
+07:52:16 INFO  : ps7_post_config is completed.
+07:52:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:53:16 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:10:04 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+11:10:05 INFO  : XSDB server has started successfully.
+11:10:05 INFO  : Processing command line option -hwspec C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper.hdf.
+11:11:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:11:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+11:11:08 INFO  : FPGA configured successfully with bitstream "C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:12:09 INFO  : ps7_init is completed.
+11:12:09 INFO  : ps7_post_config is completed.
+11:12:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:14:25 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:52:43 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+09:52:44 INFO  : XSDB server has started successfully.
+09:52:45 INFO  : Processing command line option -hwspec C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper.hdf.
+09:52:46 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+18:34:48 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+18:34:49 INFO  : XSDB server has started successfully.
+18:34:50 INFO  : Processing command line option -hwspec C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper.hdf.
+18:34:51 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+18:54:58 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+18:54:59 INFO  : XSDB server has started successfully.
+18:55:00 INFO  : Processing command line option -hwspec C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper.hdf.
+18:55:01 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+21:12:37 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+21:12:39 INFO  : XSDB server has started successfully.
+21:12:40 INFO  : Processing command line option -hwspec C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper.hdf.
+21:12:40 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+21:16:42 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+21:16:44 INFO  : XSDB server has started successfully.
+21:16:44 INFO  : Processing command line option -hwspec C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper.hdf.
+21:16:44 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+21:44:33 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+21:44:34 INFO  : XSDB server has started successfully.
+21:44:35 INFO  : Processing command line option -hwspec C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper.hdf.
+21:44:36 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+21:44:40 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1519191841752,  Project:1518548977210
+21:44:40 INFO  : The hardware specification for project 'system_wrapper_hw_platform_1' is different from C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper.hdf.
+21:44:40 INFO  : Copied contents of C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_1\system.hdf.
+21:45:28 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:45:28 INFO  : Clearing existing target manager status.
+21:45:28 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+21:45:28 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+21:46:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:46:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+21:46:37 INFO  : FPGA configured successfully with bitstream "C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+21:47:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:47:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+21:47:51 INFO  : 'fpga -state' command is executed.
+21:47:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:47:52 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0' command is executed.
+21:47:55 INFO  : Mermory regions for PS have been updated.
+21:47:55 INFO  : Sourcing of 'C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:47:55 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0' command is executed.
+21:47:55 INFO  : 'ps7_init' command is executed.
+21:47:55 INFO  : 'ps7_post_config' command is executed.
+21:47:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:47:56 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+21:47:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:47:56 INFO  : The application 'C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/TestApp/Debug/TestApp.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:47:56 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+memmap -addr 1092681728 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1092616192 -size 65536 -flags 3
+source C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+dow C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/TestApp/Debug/TestApp.elf
+----------------End of Script----------------
+
+21:47:56 INFO  : Memory regions updated for context APU
+21:47:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:47:57 INFO  : 'con' command is executed.
+21:47:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+con
+----------------End of Script----------------
+
+22:03:11 INFO  : Disconnected from the channel tcfchan#1.
+22:03:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:03:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+22:03:11 INFO  : 'fpga -state' command is executed.
+22:03:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:03:12 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0' command is executed.
+22:03:14 INFO  : Mermory regions for PS have been updated.
+22:03:15 INFO  : Sourcing of 'C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+22:03:15 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0' command is executed.
+22:03:15 INFO  : 'ps7_init' command is executed.
+22:03:15 INFO  : 'ps7_post_config' command is executed.
+22:03:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:03:16 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+22:03:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:03:16 INFO  : The application 'C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/TestApp/Debug/TestApp.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:03:16 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+memmap -addr 1092681728 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1092616192 -size 65536 -flags 3
+source C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+dow C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/TestApp/Debug/TestApp.elf
+----------------End of Script----------------
+
+22:03:16 INFO  : Memory regions updated for context APU
+22:03:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:03:16 INFO  : 'con' command is executed.
+22:03:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+con
+----------------End of Script----------------
+
+22:03:31 INFO  : Disconnected from the channel tcfchan#2.
+22:03:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:03:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+22:03:52 INFO  : 'fpga -state' command is executed.
+22:03:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:03:53 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0' command is executed.
+22:03:55 INFO  : Mermory regions for PS have been updated.
+22:03:56 INFO  : Sourcing of 'C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+22:03:56 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0' command is executed.
+22:03:56 INFO  : 'ps7_init' command is executed.
+22:03:56 INFO  : 'ps7_post_config' command is executed.
+22:03:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:03:57 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+22:03:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:03:57 INFO  : The application 'C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/TestApp/Debug/TestApp.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:03:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+memmap -addr 1092681728 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1092616192 -size 65536 -flags 3
+source C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+dow C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/TestApp/Debug/TestApp.elf
+----------------End of Script----------------
+
+22:03:57 INFO  : Memory regions updated for context APU
+22:03:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:03:57 INFO  : 'con' command is executed.
+22:03:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+con
+----------------End of Script----------------
+
+22:11:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:11:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+22:11:31 INFO  : FPGA configured successfully with bitstream "C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+22:11:40 INFO  : Disconnected from the channel tcfchan#3.
+22:11:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:11:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+22:11:40 INFO  : 'fpga -state' command is executed.
+22:11:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:11:41 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0' command is executed.
+22:11:44 INFO  : Mermory regions for PS have been updated.
+22:11:44 INFO  : Sourcing of 'C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+22:11:44 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0' command is executed.
+22:11:44 INFO  : 'ps7_init' command is executed.
+22:11:45 INFO  : 'ps7_post_config' command is executed.
+22:11:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:11:45 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+22:11:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:11:45 INFO  : The application 'C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/TestApp/Debug/TestApp.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:11:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+memmap -addr 1092681728 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1092616192 -size 65536 -flags 3
+source C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+dow C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/TestApp/Debug/TestApp.elf
+----------------End of Script----------------
+
+22:11:45 INFO  : Memory regions updated for context APU
+22:11:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:11:46 INFO  : 'con' command is executed.
+22:11:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+con
+----------------End of Script----------------
+
+22:18:48 INFO  : Disconnected from the channel tcfchan#4.
+22:18:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:18:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+22:18:48 INFO  : 'fpga -state' command is executed.
+22:18:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:18:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+22:18:57 INFO  : FPGA configured successfully with bitstream "C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+22:19:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:19:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+22:19:03 INFO  : 'fpga -state' command is executed.
+22:19:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:19:03 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0' command is executed.
+22:19:06 INFO  : Mermory regions for PS have been updated.
+22:19:06 INFO  : Sourcing of 'C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+22:19:07 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0' command is executed.
+22:19:07 INFO  : 'ps7_init' command is executed.
+22:19:07 INFO  : 'ps7_post_config' command is executed.
+22:19:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+memmap -addr 1092681728 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1092616192 -size 65536 -flags 3
+source C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+ps7_init
+ps7_post_config
+----------------End of Script----------------
+
+22:19:07 INFO  : Memory regions updated for context APU
+22:24:29 INFO  : Disconnected from the channel tcfchan#5.
+22:37:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:37:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+22:37:01 INFO  : 'fpga -state' command is executed.
+22:37:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:37:05 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0' command is executed.
+22:37:08 INFO  : Mermory regions for PS have been updated.
+22:37:08 INFO  : Sourcing of 'C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+22:37:08 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0' command is executed.
+22:37:09 INFO  : 'ps7_init' command is executed.
+22:37:09 INFO  : 'ps7_post_config' command is executed.
+22:37:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:37:09 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+22:37:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:37:10 INFO  : The application 'C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/TestApp/Debug/TestApp.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:37:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+memmap -addr 1092681728 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1092616192 -size 65536 -flags 3
+source C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+dow C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/TestApp/Debug/TestApp.elf
+----------------End of Script----------------
+
+22:37:10 INFO  : Memory regions updated for context APU
+22:37:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:37:10 INFO  : 'con' command is executed.
+22:37:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+con
+----------------End of Script----------------
+
+22:37:56 INFO  : Disconnected from the channel tcfchan#6.
+22:38:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:38:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+22:38:20 INFO  : FPGA configured successfully with bitstream "C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+22:38:35 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Debug Operation Not Supported on the Target, Current Processor State is not "Stopped"
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1073)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:486)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:588)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+22:39:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:39:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+22:39:22 INFO  : 'fpga -state' command is executed.
+22:39:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:39:23 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0' command is executed.
+22:39:26 INFO  : Mermory regions for PS have been updated.
+22:39:26 INFO  : Sourcing of 'C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+22:39:26 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0' command is executed.
+22:39:26 ERROR : Cannot halt processor core, timeout
+22:39:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+memmap -addr 1092681728 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1092616192 -size 65536 -flags 3
+source C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+ps7_init
+----------------End of Script----------------
+
+22:40:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:40:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+22:40:12 INFO  : FPGA configured successfully with bitstream "C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+22:40:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:40:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+22:40:21 INFO  : 'fpga -state' command is executed.
+22:40:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:40:21 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0' command is executed.
+22:40:24 INFO  : Mermory regions for PS have been updated.
+22:40:24 INFO  : Sourcing of 'C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+22:40:24 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0' command is executed.
+22:40:25 INFO  : 'ps7_init' command is executed.
+22:40:25 INFO  : 'ps7_post_config' command is executed.
+22:40:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:40:25 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+22:40:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:40:26 INFO  : The application 'C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/TestApp/Debug/TestApp.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:40:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+memmap -addr 1092681728 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1092616192 -size 65536 -flags 3
+source C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+dow C:/Users/Lauro/Desktop/CECS-461/Lab_2/project_2/project_2.sdk/TestApp/Debug/TestApp.elf
+----------------End of Script----------------
+
+22:40:26 INFO  : Memory regions updated for context APU
+22:40:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:40:26 INFO  : 'con' command is executed.
+22:40:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279772611A"} -index 0
+con
+----------------End of Script----------------
+
+23:13:50 INFO  : Disconnected from the channel tcfchan#7.
+23:13:52 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:48:28 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+10:48:30 INFO  : XSDB server has started successfully.
+10:48:30 INFO  : Processing command line option -hwspec C:/Users/Lauro/Desktop/CECS-461/Midterm1LabTestVerisonA/Midterm1LabTestVerisonA.sdk/system_wrapper.hdf.
+10:49:36 ERROR : Unexpected error while obtaining referenced S/W project {}
+org.eclipse.core.internal.resources.ResourceException: Resource '/standalone_bsp_0' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+	at com.xilinx.sdk.sw.SwProjectUtils.getReferencedSwProject(SwProjectUtils.java:259)
+	at com.xilinx.sdk.tools.internal.CProjectPropertyTester.test(CProjectPropertyTester.java:31)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:189)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:247)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:166)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:96)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:185)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:125)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:54)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:476)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:4964)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4640)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:257)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+10:49:36 ERROR : Unexpected error while obtaining referenced S/W project {}
+org.eclipse.core.internal.resources.ResourceException: Resource '/standalone_bsp_0' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+	at com.xilinx.sdk.sw.SwProjectUtils.getReferencedSwProject(SwProjectUtils.java:259)
+	at com.xilinx.sdk.tools.internal.CProjectPropertyTester.test(CProjectPropertyTester.java:31)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:189)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:247)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:166)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:96)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:185)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:125)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:54)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:476)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:4964)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4640)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:257)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+10:49:49 ERROR : Unexpected error while obtaining referenced S/W project {}
+org.eclipse.core.internal.resources.ResourceException: Resource '/standalone_bsp_0' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+	at com.xilinx.sdk.sw.SwProjectUtils.getReferencedSwProject(SwProjectUtils.java:259)
+	at com.xilinx.sdk.tools.internal.CProjectPropertyTester.test(CProjectPropertyTester.java:31)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:189)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:247)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:166)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:96)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:185)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:125)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:54)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:476)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:4964)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4640)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:257)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+10:49:49 ERROR : Unexpected error while obtaining referenced S/W project {}
+org.eclipse.core.internal.resources.ResourceException: Resource '/standalone_bsp_0' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+	at com.xilinx.sdk.sw.SwProjectUtils.getReferencedSwProject(SwProjectUtils.java:259)
+	at com.xilinx.sdk.tools.internal.CProjectPropertyTester.test(CProjectPropertyTester.java:31)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:189)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:247)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:166)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:96)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:185)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:125)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:54)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:476)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:4964)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4640)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:257)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+10:51:01 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+10:51:02 INFO  : Processing command line option -hwspec C:/Users/Lauro/Desktop/CECS-461/Midterm1LabTestVerisonA/Midterm1LabTestVerisonA.sdk/system_wrapper.hdf.
+10:51:02 INFO  : XSDB server has started successfully.
+10:55:03 INFO  : ps7_init is completed.
+10:55:03 INFO  : ps7_post_config is completed.
+10:55:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:01:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:01:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+11:01:17 INFO  : FPGA configured successfully with bitstream "C:/Users/Lauro/Desktop/CECS-461/Midterm1LabTestVerisonA/Midterm1LabTestVerisonA.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:01:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:01:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:01:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+11:01:58 INFO  : FPGA configured successfully with bitstream "C:/Users/Lauro/Desktop/CECS-461/Midterm1LabTestVerisonA/Midterm1LabTestVerisonA.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:02:05 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:02:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:02:18 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:670)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:609)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+11:02:31 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:02:43 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+11:02:44 INFO  : XSDB server has started successfully.
+11:02:46 INFO  : Processing command line option -hwspec C:/Users/Lauro/Desktop/CECS-461/Midterm1LabTestVerisonA/Midterm1LabTestVerisonA.sdk/system_wrapper.hdf.
+11:02:47 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+11:03:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:03:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+11:03:02 INFO  : FPGA configured successfully with bitstream "C:/Users/Lauro/Desktop/CECS-461/Midterm1LabTestVerisonA/Midterm1LabTestVerisonA.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:03:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:03:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+11:03:31 INFO  : FPGA configured successfully with bitstream "C:/Users/Lauro/Desktop/CECS-461/Midterm1LabTestVerisonA/Midterm1LabTestVerisonA.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:03:42 INFO  : ps7_init is completed.
+11:03:42 INFO  : ps7_post_config is completed.
+11:03:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:04:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:06:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:06:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772611A" && level==0} -index 1' command is executed.
+11:06:10 INFO  : FPGA configured successfully with bitstream "C:/Users/Lauro/Desktop/CECS-461/Midterm1LabTestVerisonA/Midterm1LabTestVerisonA.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:06:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:32:06 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

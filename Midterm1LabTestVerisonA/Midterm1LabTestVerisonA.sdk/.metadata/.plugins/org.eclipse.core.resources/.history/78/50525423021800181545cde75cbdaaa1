@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include "platform.h"
+#include "xstatus.h"
+
+// MUST INCLUDE THESE FILES
+#include"xparameters.h"
+#include"xgpio.h"
+
+#define CHANNEL_1 1
+#define INPUT 0xfffffff
+#define OUTPUT 0x0
+#define running 1
+
+int main()
+{
+    init_platform();
+
+    printf("Hello World Midterm 1\n\r");
+
+    cleanup_platform();
+    return 0;
+}

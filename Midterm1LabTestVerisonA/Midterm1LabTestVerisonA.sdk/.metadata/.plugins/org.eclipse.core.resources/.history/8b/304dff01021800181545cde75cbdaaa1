@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include "platform.h"
+#include "xstatus.h"
+
+void print(char *str);
+
+int main()
+{
+    init_platform();
+
+    print("Hello World Midterm 1\n\r");
+
+    cleanup_platform();
+    return 0;
+}

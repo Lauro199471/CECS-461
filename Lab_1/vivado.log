@@ -2,19 +2,23 @@
 # Vivado v2015.2 (64-bit)
 # SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
 # IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
-# Start of session at: Fri Feb 02 01:36:37 2018
-# Process ID: 10488
-# Log file: C:/Xilinx/CECS-461/Lab_1/vivado.log
-# Journal file: C:/Xilinx/CECS-461/Lab_1\vivado.jou
+# Start of session at: Thu Feb 22 09:55:40 2018
+# Process ID: 10592
+# Log file: C:/Users/Lauro/Desktop/CECS-461/Lab_1/vivado.log
+# Journal file: C:/Users/Lauro/Desktop/CECS-461/Lab_1\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Xilinx/CECS-461/Lab_1/project_1.xpr
+open_project C:/Users/Lauro/Desktop/CECS-461/Lab_1/project_1.xpr
 INFO: [Project 1-313] Project file moved from 'C:/Xilinx/MyProjects/project_1' since last save.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
-open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 739.227 ; gain = 177.586
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 802.207 ; gain = 215.484
+save_project_as Exam1 C:/Users/Lauro/Desktop/CECS-461/Exam1 -force
+open_bd_design {C:/Users/Lauro/Desktop/CECS-461/Exam1/Exam1.srcs/sources_1/bd/system/system.bd}
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Successfully read diagram <system> from BD file <C:/Users/Lauro/Desktop/CECS-461/Exam1/Exam1.srcs/sources_1/bd/system/system.bd>
 exit
-INFO: [Common 17-206] Exiting Vivado at Fri Feb 02 01:47:46 2018...
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 22 10:38:20 2018...

@@ -1,0 +1,8 @@
+#include"xparameters.h"
+#include"xgpio.h"
+
+int main(void)
+{
+	XGpio dip , push;
+	int psb_check , dip_check;
+}

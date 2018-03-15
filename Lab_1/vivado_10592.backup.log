@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Feb 22 09:54:20 2018
+# Process ID: 4004
+# Log file: C:/Users/Lauro/Desktop/CECS-461/Lab_1/vivado.log
+# Journal file: C:/Users/Lauro/Desktop/CECS-461/Lab_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lauro/Desktop/CECS-461/Lab_1/project_1.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Xilinx/MyProjects/project_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 788.047 ; gain = 198.824
+save_project_as Exam1 C:/Users/Lauro/Desktop/CECS-461/Lab_1/Exam1 -force
+save_project_as: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 794.453 ; gain = 3.379
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 22 09:55:26 2018...

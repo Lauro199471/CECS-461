@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include "platform.h"
+#include "xstatus.h"
+
+// MUST INCLUDE THESE FILES
+#include"xparameters.h"
+#include"xgpio.h"
+int main()
+{
+    init_platform();
+
+    printf("Hello World Midterm 1\n\r");
+
+    cleanup_platform();
+    return 0;
+}
