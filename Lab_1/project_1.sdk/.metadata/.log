@@ -4638,3 +4638,81 @@ java.io.FileNotFoundException: C:\Users\Lauro\Desktop\CECS-461\Lab_1\project_1.s
 	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2376)
 	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2018-03-17 12:33:38.893 -----------------------------------------------
+eclipse.buildId=2015.2
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/Users/Lauro/Desktop/CECS-461/Lab_1/project_1.sdk
+
+!ENTRY org.eclipse.ui.ide 4 4 2018-03-17 12:34:02.012
+!MESSAGE Problems occurred closing the selected resources.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2018-03-17 12:34:02.012
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Lauro\Desktop\CECS-461\Lab_1\project_1.sdk\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\1.tree (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.writeTree(SaveManager.java:2052)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1179)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:203)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:164)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:485)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.ui.ide 4 4 2018-03-17 12:34:12.783
+!MESSAGE Problems occurred closing the selected resources.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2018-03-17 12:34:12.783
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Lauro\Desktop\CECS-461\Lab_1\project_1.sdk\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\1.tree (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.writeTree(SaveManager.java:2052)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1179)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:203)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:164)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:485)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.tcf 4 0 2018-03-17 12:34:32.620
+!MESSAGE Cannot close channel streams
+!STACK 0
+java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at java.io.FilterOutputStream.close(Unknown Source)
+	at org.eclipse.tcf.core.ChannelTCP.stop(ChannelTCP.java:194)
+	at org.eclipse.tcf.core.AbstractChannel$8.run(AbstractChannel.java:691)
+
+!ENTRY org.eclipse.ui.ide 4 4 2018-03-17 12:34:34.108
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2018-03-17 12:34:34.118
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2018-03-17 12:34:34.118
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Lauro\Desktop\CECS-461\Lab_1\project_1.sdk\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1600)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1680)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1142)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2376)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)

@@ -32,3 +32,7 @@
 13:34:46 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
 13:34:48 INFO  : XSDB server has started successfully.
 13:34:48 INFO  : Processing command line option -hwspec C:/Users/Lauro/Desktop/CECS-461/Lab_1/project_1.sdk/system_wrapper.hdf.
+12:33:42 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+12:33:43 INFO  : XSDB server has started successfully.
+12:33:44 INFO  : Processing command line option -hwspec C:/Users/Lauro/Desktop/CECS-461/Lab_1/project_1.sdk/system_wrapper.hdf.
+12:33:45 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Mar 15 13:34:03 2018
+# Process ID: 9176
+# Log file: C:/Users/Lauro/Desktop/CECS-461/Lab_1/vivado.log
+# Journal file: C:/Users/Lauro/Desktop/CECS-461/Lab_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lauro/Desktop/CECS-461/Lab_1/project_1.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Xilinx/MyProjects/project_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 789.121 ; gain = 195.480
+launch_sdk -workspace C:/Users/Lauro/Desktop/CECS-461/Lab_1/project_1.sdk -hwspec C:/Users/Lauro/Desktop/CECS-461/Lab_1/project_1.sdk/system_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/Lauro/Desktop/CECS-461/Lab_1/project_1.sdk -hwspec C:/Users/Lauro/Desktop/CECS-461/Lab_1/project_1.sdk/system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 15 13:43:17 2018...
