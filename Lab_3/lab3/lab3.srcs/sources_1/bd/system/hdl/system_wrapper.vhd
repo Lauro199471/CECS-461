@@ -1,7 +1,7 @@
 --Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
---Date        : Tue Jan 30 22:44:43 2018
+--Date        : Sat Mar 17 16:03:43 2018
 --Host        : Lauro-Laptop running 64-bit major release  (build 9200)
 --Command     : generate_target system_wrapper.bd
 --Design      : system_wrapper
@@ -33,7 +33,10 @@ entity system_wrapper is
     FIXED_IO_mio : inout STD_LOGIC_VECTOR ( 53 downto 0 );
     FIXED_IO_ps_clk : inout STD_LOGIC;
     FIXED_IO_ps_porb : inout STD_LOGIC;
-    FIXED_IO_ps_srstb : inout STD_LOGIC
+    FIXED_IO_ps_srstb : inout STD_LOGIC;
+    LED : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    btns_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    sws_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 )
   );
 end system_wrapper;
 
@@ -60,7 +63,10 @@ architecture STRUCTURE of system_wrapper is
     FIXED_IO_ddr_vrp : inout STD_LOGIC;
     FIXED_IO_ps_srstb : inout STD_LOGIC;
     FIXED_IO_ps_clk : inout STD_LOGIC;
-    FIXED_IO_ps_porb : inout STD_LOGIC
+    FIXED_IO_ps_porb : inout STD_LOGIC;
+    sws_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    btns_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    LED : out STD_LOGIC_VECTOR ( 3 downto 0 )
   );
   end component system;
 begin
@@ -86,6 +92,9 @@ system_i: component system
       FIXED_IO_mio(53 downto 0) => FIXED_IO_mio(53 downto 0),
       FIXED_IO_ps_clk => FIXED_IO_ps_clk,
       FIXED_IO_ps_porb => FIXED_IO_ps_porb,
-      FIXED_IO_ps_srstb => FIXED_IO_ps_srstb
+      FIXED_IO_ps_srstb => FIXED_IO_ps_srstb,
+      LED(3 downto 0) => LED(3 downto 0),
+      btns_4bits_tri_i(3 downto 0) => btns_4bits_tri_i(3 downto 0),
+      sws_4bits_tri_i(3 downto 0) => sws_4bits_tri_i(3 downto 0)
     );
 end STRUCTURE;
