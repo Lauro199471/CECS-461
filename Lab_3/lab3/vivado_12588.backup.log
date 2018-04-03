@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sat Mar 17 16:14:16 2018
+# Process ID: 14956
+# Log file: C:/Users/Lauro/Desktop/CECS-461/Lab_3/lab3/vivado.log
+# Journal file: C:/Users/Lauro/Desktop/CECS-461/Lab_3/lab3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lauro/Desktop/CECS-461/Lab_3/lab3/lab3.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Lauro/Desktop/CECS-461/Lab_3/CustomIP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 845.430 ; gain = 247.008
+open_bd_design {C:/Users/Lauro/Desktop/CECS-461/Lab_3/lab3/lab3.srcs/sources_1/bd/system/system.bd}
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - switches
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_processing_system7_0_100M
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - buttons
+Adding component instance block -- xilinx.com:user:led_ip:1.0 - led_ip
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.0 - axi_bram_ctrl_0
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.2 - axi_bram_ctrl_0_bram
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <system> from BD file <C:/Users/Lauro/Desktop/CECS-461/Lab_3/lab3/lab3.srcs/sources_1/bd/system/system.bd>
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sat Mar 17 16:14:54 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Lauro/Desktop/CECS-461/Lab_3/lab3/lab3.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Mar 17 16:15:44 2018...

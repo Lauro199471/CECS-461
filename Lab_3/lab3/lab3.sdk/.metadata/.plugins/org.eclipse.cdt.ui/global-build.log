@@ -1631,3 +1631,6 @@ arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
   24036	   1184	  22580	  47800	   bab8	TestApp.elf
 'Finished building: TestApp.elf.size'
 ' '
+15:09:05 **** Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
