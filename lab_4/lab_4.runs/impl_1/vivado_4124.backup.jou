@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sat Mar 17 16:06:40 2018
+# Process ID: 3008
+# Log file: C:/Users/Lauro/Desktop/CECS-461/Lab_3/lab3/lab3.runs/impl_1/system_wrapper.vdi
+# Journal file: C:/Users/Lauro/Desktop/CECS-461/Lab_3/lab3/lab3.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace

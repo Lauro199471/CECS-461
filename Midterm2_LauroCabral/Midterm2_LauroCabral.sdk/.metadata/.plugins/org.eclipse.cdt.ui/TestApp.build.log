@@ -1,0 +1,13 @@
+17:20:08 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab2.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+../src/lab2.c:1:25: fatal error: xparameters.h: No such file or directory
+ #include "xparameters.h"
+                         ^
+compilation terminated.
+make: *** [src/lab2.o] Error 1
+
+17:20:08 Build Finished (took 530ms)
+

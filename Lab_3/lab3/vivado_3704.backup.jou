@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue Apr 03 03:57:34 2018
+# Process ID: 10428
+# Log file: C:/Users/Lauro/Desktop/CECS-461/Lab_3/lab3/vivado.log
+# Journal file: C:/Users/Lauro/Desktop/CECS-461/Lab_3/lab3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lauro/Desktop/CECS-461/Lab_3/lab3/lab3.xpr
+save_project_as project_1 C:/Users/Lauro/Desktop/CECS-461/Lab_4/project_1 -force

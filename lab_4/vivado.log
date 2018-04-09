@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Apr 05 10:36:01 2018
+# Process ID: 14520
+# Log file: C:/Users/Lauro/Desktop/CECS-461/lab_4/vivado.log
+# Journal file: C:/Users/Lauro/Desktop/CECS-461/lab_4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lauro/Desktop/CECS-461/lab_4/lab_4.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Lauro/Desktop/CECS-461/Lab_3/CustomIP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 785.754 ; gain = 199.371
+launch_sdk -workspace C:/Users/Lauro/Desktop/CECS-461/lab_4/lab_4.sdk -hwspec C:/Users/Lauro/Desktop/CECS-461/lab_4/lab_4.sdk/system_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/Lauro/Desktop/CECS-461/lab_4/lab_4.sdk -hwspec C:/Users/Lauro/Desktop/CECS-461/lab_4/lab_4.sdk/system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 05 10:45:54 2018...

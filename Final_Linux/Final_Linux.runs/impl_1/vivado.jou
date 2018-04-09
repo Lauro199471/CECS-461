@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sun Apr 08 19:54:31 2018
+# Process ID: 6608
+# Log file: C:/Users/Lauro/Desktop/CECS-461/Final_Linux/Final_Linux.runs/impl_1/hardware_linux_wrapper.vdi
+# Journal file: C:/Users/Lauro/Desktop/CECS-461/Final_Linux/Final_Linux.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source hardware_linux_wrapper.tcl -notrace
